@@ -1,0 +1,212 @@
+[
+    {
+        "Symbol": "TSM",
+        "Name": "Taiwan Semiconductor Manufactur",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 1754646446080.0,
+        "MarketCapPretty": "1754.65B"
+    },
+    {
+        "Symbol": "SAP",
+        "Name": "SAP  SE",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 223351963648.0,
+        "MarketCapPretty": "223.35B"
+    },
+    {
+        "Symbol": "TXN",
+        "Name": "Texas Instruments Incorporated",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 173698203648.0,
+        "MarketCapPretty": "173.70B"
+    },
+    {
+        "Symbol": "SHOP",
+        "Name": "Shopify Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 160473088000.0,
+        "MarketCapPretty": "160.47B"
+    },
+    {
+        "Symbol": "UBER",
+        "Name": "Uber Technologies, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 152367300608.0,
+        "MarketCapPretty": "152.37B"
+    },
+    {
+        "Symbol": "QCOM",
+        "Name": "QUALCOMM Incorporated",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 138653630464.0,
+        "MarketCapPretty": "138.65B"
+    },
+    {
+        "Symbol": "SONY",
+        "Name": "Sony Group Corporation",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 127612633088.0,
+        "MarketCapPretty": "127.61B"
+    },
+    {
+        "Symbol": "SNDK",
+        "Name": "Sandisk Corporation",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 97655758848.0,
+        "MarketCapPretty": "97.66B"
+    },
+    {
+        "Symbol": "WDC",
+        "Name": "Western Digital Corporation",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 93095763968.0,
+        "MarketCapPretty": "93.10B"
+    },
+    {
+        "Symbol": "STX",
+        "Name": "Seagate Technology Holdings PLC",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 85960777728.0,
+        "MarketCapPretty": "85.96B"
+    },
+    {
+        "Symbol": "SNPS",
+        "Name": "Synopsys, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 79044239360.0,
+        "MarketCapPretty": "79.04B"
+    },
+    {
+        "Symbol": "SNOW",
+        "Name": "Snowflake Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 61137453056.0,
+        "MarketCapPretty": "61.14B"
+    },
+    {
+        "Symbol": "TEL",
+        "Name": "TE Connectivity plc",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 58533912576.0,
+        "MarketCapPretty": "58.53B"
+    },
+    {
+        "Symbol": "UI",
+        "Name": "Ubiquiti Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 45986119680.0,
+        "MarketCapPretty": "45.99B"
+    },
+    {
+        "Symbol": "TER",
+        "Name": "Teradyne, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 44840759296.0,
+        "MarketCapPretty": "44.84B"
+    },
+    {
+        "Symbol": "ROP",
+        "Name": "Roper Technologies, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 37780738048.0,
+        "MarketCapPretty": "37.78B"
+    },
+    {
+        "Symbol": "XYZ",
+        "Name": "Block, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 36332294144.0,
+        "MarketCapPretty": "36.33B"
+    },
+    {
+        "Symbol": "WDAY",
+        "Name": "Workday, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 35535028224.0,
+        "MarketCapPretty": "35.54B"
+    },
+    {
+        "Symbol": "STM",
+        "Name": "STMicroelectronics N.V.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 29684334592.0,
+        "MarketCapPretty": "29.68B"
+    },
+    {
+        "Symbol": "TDY",
+        "Name": "Teledyne Technologies Incorpora",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 29588088832.0,
+        "MarketCapPretty": "29.59B"
+    },
+    {
+        "Symbol": "ZS",
+        "Name": "Zscaler, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 24723177472.0,
+        "MarketCapPretty": "24.72B"
+    },
+    {
+        "Symbol": "WIT",
+        "Name": "Wipro Limited",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 23677007872.0,
+        "MarketCapPretty": "23.68B"
+    },
+    {
+        "Symbol": "UMC",
+        "Name": "United Microelectronics Corpora",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 23380170752.0,
+        "MarketCapPretty": "23.38B"
+    },
+    {
+        "Symbol": "Q",
+        "Name": "Qnity Electronics, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 22863304704.0,
+        "MarketCapPretty": "22.86B"
+    },
+    {
+        "Symbol": "VRSN",
+        "Name": "VeriSign, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 22118219776.0,
+        "MarketCapPretty": "22.12B"
+    },
+    {
+        "Symbol": "ZM",
+        "Name": "Zoom Communications, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 21941080064.0,
+        "MarketCapPretty": "21.94B"
+    },
+    {
+        "Symbol": "PSTG",
+        "Name": "Everpure, Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 20305555456.0,
+        "MarketCapPretty": "20.31B"
+    },
+    {
+        "Symbol": "TEAM",
+        "Name": "Atlassian Corporation",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 19836192768.0,
+        "MarketCapPretty": "19.84B"
+    },
+    {
+        "Symbol": "TWLO",
+        "Name": "Twilio Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 18875795456.0,
+        "MarketCapPretty": "18.88B"
+    },
+    {
+        "Symbol": "PTC",
+        "Name": "PTC Inc.",
+        "Industry": "Software/Digital Technology",
+        "MarketCap": 18550304768.0,
+        "MarketCapPretty": "18.55B"
+    }
+]

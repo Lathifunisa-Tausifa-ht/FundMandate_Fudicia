@@ -1,0 +1,3523 @@
+[
+  {
+    "Symbol": "MMM",
+    "Security": "3M",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Conglomerates",
+    "Headquarters Location": "Saint Paul, Minnesota"
+  },
+  {
+    "Symbol": "AOS",
+    "Security": "A. O. Smith",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Milwaukee , Wisconsin"
+  },
+  {
+    "Symbol": "ABT",
+    "Security": "Abbott Laboratories",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "North Chicago, Illinois"
+  },
+  {
+    "Symbol": "ABBV",
+    "Security": "AbbVie",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "North Chicago, Illinois"
+  },
+  {
+    "Symbol": "ACN",
+    "Security": "Accenture",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "ADBE",
+    "Security": "Adobe Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "AMD",
+    "Security": "Advanced Micro Devices",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "AES",
+    "Security": "AES Corporation",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Independent Power Producers & Energy Traders",
+    "Headquarters Location": "Arlington, Virginia"
+  },
+  {
+    "Symbol": "AFL",
+    "Security": "Aflac",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "Columbus, Georgia"
+  },
+  {
+    "Symbol": "A",
+    "Security": "Agilent Technologies",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "APD",
+    "Security": "Air Products",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Industrial Gases",
+    "Headquarters Location": "Upper Macungie Township, Pennsylvania"
+  },
+  {
+    "Symbol": "ABNB",
+    "Security": "Airbnb",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "AKAM",
+    "Security": "Akamai Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "Headquarters Location": "Cambridge, Massachusetts"
+  },
+  {
+    "Symbol": "ALB",
+    "Security": "Albemarle Corporation",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Charlotte, North Carolina"
+  },
+  {
+    "Symbol": "ARE",
+    "Security": "Alexandria Real Estate Equities",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Office REITs",
+    "Headquarters Location": "Pasadena, California"
+  },
+  {
+    "Symbol": "ALGN",
+    "Security": "Align Technology",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "Headquarters Location": "Tempe, Arizona"
+  },
+  {
+    "Symbol": "ALLE",
+    "Security": "Allegion",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "LNT",
+    "Security": "Alliant Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Madison, Wisconsin"
+  },
+  {
+    "Symbol": "ALL",
+    "Security": "Allstate",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Northbrook, Illinois"
+  },
+  {
+    "Symbol": "GOOGL",
+    "Security": "Alphabet Inc. (Class A)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "Headquarters Location": "Mountain View, California"
+  },
+  {
+    "Symbol": "GOOG",
+    "Security": "Alphabet Inc. (Class C)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "Headquarters Location": "Mountain View, California"
+  },
+  {
+    "Symbol": "MO",
+    "Security": "Altria",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Tobacco",
+    "Headquarters Location": "Richmond, Virginia"
+  },
+  {
+    "Symbol": "AMZN",
+    "Security": "Amazon",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Broadline Retail",
+    "Headquarters Location": "Seattle , Washington"
+  },
+  {
+    "Symbol": "AMCR",
+    "Security": "Amcor",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Warmley , Bristol , United Kingdom"
+  },
+  {
+    "Symbol": "AEE",
+    "Security": "Ameren",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "St. Louis , Missouri"
+  },
+  {
+    "Symbol": "AEP",
+    "Security": "American Electric Power",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Columbus, Ohio"
+  },
+  {
+    "Symbol": "AXP",
+    "Security": "American Express",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Consumer Finance",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "AIG",
+    "Security": "American International Group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Multi-line Insurance",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "AMT",
+    "Security": "American Tower",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Telecom Tower REITs",
+    "Headquarters Location": "Boston , Massachusetts"
+  },
+  {
+    "Symbol": "AWK",
+    "Security": "American Water Works",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Water Utilities",
+    "Headquarters Location": "Camden, New Jersey"
+  },
+  {
+    "Symbol": "AMP",
+    "Security": "Ameriprise Financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Minneapolis , Minnesota"
+  },
+  {
+    "Symbol": "AME",
+    "Security": "Ametek",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Berwyn, Pennsylvania"
+  },
+  {
+    "Symbol": "AMGN",
+    "Security": "Amgen",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Thousand Oaks, California"
+  },
+  {
+    "Symbol": "APH",
+    "Security": "Amphenol",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Components",
+    "Headquarters Location": "Wallingford, Connecticut"
+  },
+  {
+    "Symbol": "ADI",
+    "Security": "Analog Devices",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Wilmington, Massachusetts"
+  },
+  {
+    "Symbol": "AON",
+    "Security": "Aon plc",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "Headquarters Location": "London , United Kingdom"
+  },
+  {
+    "Symbol": "APA",
+    "Security": "APA Corporation",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "APO",
+    "Security": "Apollo Global Management",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "AAPL",
+    "Security": "Apple Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Cupertino, California"
+  },
+  {
+    "Symbol": "AMAT",
+    "Security": "Applied Materials",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductor Materials & Equipment",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "APP",
+    "Security": "AppLovin",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Palo Alto, California"
+  },
+  {
+    "Symbol": "APTV",
+    "Security": "Aptiv",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automotive Parts & Equipment",
+    "Headquarters Location": "Schaffhausen , Switzerland"
+  },
+  {
+    "Symbol": "ACGL",
+    "Security": "Arch Capital Group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Hamilton, Bermuda"
+  },
+  {
+    "Symbol": "ADM",
+    "Security": "Archer Daniels Midland",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Agricultural Products & Services",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "ARES",
+    "Security": "Ares Management",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Los Angeles , California"
+  },
+  {
+    "Symbol": "ANET",
+    "Security": "Arista Networks",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Communications Equipment",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "AJG",
+    "Security": "Arthur J. Gallagher & Co.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "Headquarters Location": "Rolling Meadows, Illinois"
+  },
+  {
+    "Symbol": "AIZ",
+    "Security": "Assurant",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Multi-line Insurance",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "T",
+    "Security": "AT&T",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Integrated Telecommunication Services",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "ATO",
+    "Security": "Atmos Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Gas Utilities",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "ADSK",
+    "Security": "Autodesk",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "ADP",
+    "Security": "Automatic Data Processing",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Human Resource & Employment Services",
+    "Headquarters Location": "Roseland, New Jersey"
+  },
+  {
+    "Symbol": "AZO",
+    "Security": "AutoZone",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automotive Retail",
+    "Headquarters Location": "Memphis, Tennessee"
+  },
+  {
+    "Symbol": "AVB",
+    "Security": "AvalonBay Communities",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Multi-Family Residential REITs",
+    "Headquarters Location": "Arlington, Virginia"
+  },
+  {
+    "Symbol": "AVY",
+    "Security": "Avery Dennison",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Mentor, Ohio"
+  },
+  {
+    "Symbol": "AXON",
+    "Security": "Axon Enterprise",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Scottsdale, Arizona"
+  },
+  {
+    "Symbol": "BKR",
+    "Security": "Baker Hughes",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Equipment & Services",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "BALL",
+    "Security": "Ball Corporation",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Metal, Glass & Plastic Containers",
+    "Headquarters Location": "Broomfield, Colorado"
+  },
+  {
+    "Symbol": "BAC",
+    "Security": "Bank of America",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "Charlotte, North Carolina"
+  },
+  {
+    "Symbol": "BAX",
+    "Security": "Baxter International",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Deerfield, Illinois"
+  },
+  {
+    "Symbol": "BDX",
+    "Security": "Becton Dickinson",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Franklin Lakes, New Jersey"
+  },
+  {
+    "Symbol": "BRK.B",
+    "Security": "Berkshire Hathaway",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Multi-Sector Holdings",
+    "Headquarters Location": "Omaha, Nebraska"
+  },
+  {
+    "Symbol": "BBY",
+    "Security": "Best Buy",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Computer & Electronics Retail",
+    "Headquarters Location": "Richfield, Minnesota"
+  },
+  {
+    "Symbol": "TECH",
+    "Security": "Bio-Techne",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Minneapolis , Minnesota"
+  },
+  {
+    "Symbol": "BIIB",
+    "Security": "Biogen",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Cambridge, Massachusetts"
+  },
+  {
+    "Symbol": "BLK",
+    "Security": "BlackRock",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "BX",
+    "Security": "Blackstone Inc.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "XYZ",
+    "Security": "Block, Inc.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "none"
+  },
+  {
+    "Symbol": "BNY",
+    "Security": "BNY Mellon",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "BA",
+    "Security": "Boeing",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Arlington, Virginia"
+  },
+  {
+    "Symbol": "BKNG",
+    "Security": "Booking Holdings",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Norwalk, Connecticut"
+  },
+  {
+    "Symbol": "BSX",
+    "Security": "Boston Scientific",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Marlborough, Massachusetts"
+  },
+  {
+    "Symbol": "BMY",
+    "Security": "Bristol Myers Squibb",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "AVGO",
+    "Security": "Broadcom",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Palo Alto, California"
+  },
+  {
+    "Symbol": "BR",
+    "Security": "Broadridge Financial Solutions",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "Headquarters Location": "Lake Success, New York"
+  },
+  {
+    "Symbol": "BRO",
+    "Security": "Brown & Brown",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "Headquarters Location": "Daytona Beach, Florida"
+  },
+  {
+    "Symbol": "BF.B",
+    "Security": "Brown–Forman",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Distillers & Vintners",
+    "Headquarters Location": "Louisville, Kentucky"
+  },
+  {
+    "Symbol": "BLDR",
+    "Security": "Builders FirstSource",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Irving, Texas"
+  },
+  {
+    "Symbol": "BG",
+    "Security": "Bunge Global",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Agricultural Products & Services",
+    "Headquarters Location": "Chesterfield, Missouri"
+  },
+  {
+    "Symbol": "BXP",
+    "Security": "BXP, Inc.",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Office REITs",
+    "Headquarters Location": "Boston , Massachusetts"
+  },
+  {
+    "Symbol": "CHRW",
+    "Security": "C.H. Robinson",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Air Freight & Logistics",
+    "Headquarters Location": "Eden Prairie, Minnesota"
+  },
+  {
+    "Symbol": "CDNS",
+    "Security": "Cadence Design Systems",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "CPT",
+    "Security": "Camden Property Trust",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Multi-Family Residential REITs",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "CPB",
+    "Security": "Campbell's Company (The)",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Camden, New Jersey"
+  },
+  {
+    "Symbol": "COF",
+    "Security": "Capital One",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Consumer Finance",
+    "Headquarters Location": "Tysons Corner, Virginia"
+  },
+  {
+    "Symbol": "CAH",
+    "Security": "Cardinal Health",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "Headquarters Location": "Dublin, Ohio"
+  },
+  {
+    "Symbol": "CCL",
+    "Security": "Carnival Corporation",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Miami , Florida"
+  },
+  {
+    "Symbol": "CARR",
+    "Security": "Carrier Global",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Palm Beach Gardens, Florida"
+  },
+  {
+    "Symbol": "CVNA",
+    "Security": "Carvana",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automotive Retail",
+    "Headquarters Location": "Tempe, Arizona"
+  },
+  {
+    "Symbol": "CASY",
+    "Security": "Casey's",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Food Retail",
+    "Headquarters Location": "Ankeny, Iowa"
+  },
+  {
+    "Symbol": "CAT",
+    "Security": "Caterpillar Inc.",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment",
+    "Headquarters Location": "Irving, Texas"
+  },
+  {
+    "Symbol": "CBOE",
+    "Security": "Cboe Global Markets",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "CBRE",
+    "Security": "CBRE Group",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Real Estate Services",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "CDW",
+    "Security": "CDW Corporation",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Distributors",
+    "Headquarters Location": "Vernon Hills, Illinois"
+  },
+  {
+    "Symbol": "COR",
+    "Security": "Cencora",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "Headquarters Location": "Conshohocken, Pennsylvania"
+  },
+  {
+    "Symbol": "CNC",
+    "Security": "Centene Corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Managed Health Care",
+    "Headquarters Location": "St. Louis , Missouri"
+  },
+  {
+    "Symbol": "CNP",
+    "Security": "CenterPoint Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "CF",
+    "Security": "CF Industries",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
+    "Headquarters Location": "Deerfield, Illinois"
+  },
+  {
+    "Symbol": "CRL",
+    "Security": "Charles River Laboratories",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Wilmington, Massachusetts"
+  },
+  {
+    "Symbol": "SCHW",
+    "Security": "Charles Schwab Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "Westlake, Texas"
+  },
+  {
+    "Symbol": "CHTR",
+    "Security": "Charter Communications",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Cable & Satellite",
+    "Headquarters Location": "Stamford, Connecticut"
+  },
+  {
+    "Symbol": "CVX",
+    "Security": "Chevron Corporation",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Integrated Oil & Gas",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "CMG",
+    "Security": "Chipotle Mexican Grill",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Newport Beach, California"
+  },
+  {
+    "Symbol": "CB",
+    "Security": "Chubb Limited",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Zurich, Switzerland"
+  },
+  {
+    "Symbol": "CHD",
+    "Security": "Church & Dwight",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Household Products",
+    "Headquarters Location": "Ewing, New Jersey"
+  },
+  {
+    "Symbol": "CIEN",
+    "Security": "Ciena",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Communications Equipment",
+    "Headquarters Location": "Hanover, Maryland"
+  },
+  {
+    "Symbol": "CI",
+    "Security": "Cigna",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Services",
+    "Headquarters Location": "Bloomfield, Connecticut"
+  },
+  {
+    "Symbol": "CINF",
+    "Security": "Cincinnati Financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Fairfield, Ohio"
+  },
+  {
+    "Symbol": "CTAS",
+    "Security": "Cintas",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Diversified Support Services",
+    "Headquarters Location": "Mason, Ohio"
+  },
+  {
+    "Symbol": "CSCO",
+    "Security": "Cisco",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Communications Equipment",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "C",
+    "Security": "Citigroup",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "CFG",
+    "Security": "Citizens Financial Group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Providence, Rhode Island"
+  },
+  {
+    "Symbol": "CLX",
+    "Security": "Clorox",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Household Products",
+    "Headquarters Location": "Oakland, California"
+  },
+  {
+    "Symbol": "CME",
+    "Security": "CME Group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "CMS",
+    "Security": "CMS Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Jackson, Michigan"
+  },
+  {
+    "Symbol": "KO",
+    "Security": "Coca-Cola Company (The)",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "CTSH",
+    "Security": "Cognizant",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "Headquarters Location": "Teaneck, New Jersey"
+  },
+  {
+    "Symbol": "COHR",
+    "Security": "Coherent Corp.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Components",
+    "Headquarters Location": "Saxonburg, Pennsylvania"
+  },
+  {
+    "Symbol": "COIN",
+    "Security": "Coinbase",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "CL",
+    "Security": "Colgate-Palmolive",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Household Products",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "CMCSA",
+    "Security": "Comcast",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Cable & Satellite",
+    "Headquarters Location": "Philadelphia , Pennsylvania"
+  },
+  {
+    "Symbol": "FIX",
+    "Security": "Comfort Systems USA",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction & Engineering",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "CAG",
+    "Security": "Conagra Brands",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "COP",
+    "Security": "ConocoPhillips",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "ED",
+    "Security": "Consolidated Edison",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "STZ",
+    "Security": "Constellation Brands",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Distillers & Vintners",
+    "Headquarters Location": "Rochester, New York"
+  },
+  {
+    "Symbol": "CEG",
+    "Security": "Constellation Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Baltimore , Maryland"
+  },
+  {
+    "Symbol": "COO",
+    "Security": "Cooper Companies (The)",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "Headquarters Location": "San Ramon, California"
+  },
+  {
+    "Symbol": "CPRT",
+    "Security": "Copart",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Diversified Support Services",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "GLW",
+    "Security": "Corning Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Components",
+    "Headquarters Location": "Corning, New York"
+  },
+  {
+    "Symbol": "CPAY",
+    "Security": "Corpay",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "CTVA",
+    "Security": "Corteva",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
+    "Headquarters Location": "Indianapolis , Indiana"
+  },
+  {
+    "Symbol": "CSGP",
+    "Security": "CoStar Group",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Real Estate Services",
+    "Headquarters Location": "Washington, D.C."
+  },
+  {
+    "Symbol": "COST",
+    "Security": "Costco",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Consumer Staples Merchandise Retail",
+    "Headquarters Location": "Issaquah, Washington"
+  },
+  {
+    "Symbol": "CRH",
+    "Security": "CRH plc",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Construction Materials",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "CRWD",
+    "Security": "CrowdStrike",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Austin, Texas"
+  },
+  {
+    "Symbol": "CCI",
+    "Security": "Crown Castle",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Telecom Tower REITs",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "CSX",
+    "Security": "CSX Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Rail Transportation",
+    "Headquarters Location": "Jacksonville, Florida"
+  },
+  {
+    "Symbol": "CMI",
+    "Security": "Cummins",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment",
+    "Headquarters Location": "Columbus, Indiana"
+  },
+  {
+    "Symbol": "CVS",
+    "Security": "CVS Health",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Services",
+    "Headquarters Location": "Woonsocket, Rhode Island"
+  },
+  {
+    "Symbol": "DHR",
+    "Security": "Danaher Corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Washington, D.C."
+  },
+  {
+    "Symbol": "DRI",
+    "Security": "Darden Restaurants",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Orlando, Florida"
+  },
+  {
+    "Symbol": "DDOG",
+    "Security": "Datadog",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "DVA",
+    "Security": "DaVita",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Services",
+    "Headquarters Location": "Denver , Colorado"
+  },
+  {
+    "Symbol": "DECK",
+    "Security": "Deckers Brands",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Footwear",
+    "Headquarters Location": "Goleta, California"
+  },
+  {
+    "Symbol": "DE",
+    "Security": "Deere & Company",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Agricultural & Farm Machinery",
+    "Headquarters Location": "Moline, Illinois"
+  },
+  {
+    "Symbol": "DELL",
+    "Security": "Dell Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Round Rock, Texas"
+  },
+  {
+    "Symbol": "DAL",
+    "Security": "Delta Air Lines",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Passenger Airlines",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "DVN",
+    "Security": "Devon Energy",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Oklahoma City , Oklahoma"
+  },
+  {
+    "Symbol": "DXCM",
+    "Security": "Dexcom",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "San Diego , California"
+  },
+  {
+    "Symbol": "FANG",
+    "Security": "Diamondback Energy",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Midland, Texas"
+  },
+  {
+    "Symbol": "DLR",
+    "Security": "Digital Realty",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Data Center REITs",
+    "Headquarters Location": "Austin, Texas"
+  },
+  {
+    "Symbol": "DG",
+    "Security": "Dollar General",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Consumer Staples Merchandise Retail",
+    "Headquarters Location": "Goodlettsville, Tennessee"
+  },
+  {
+    "Symbol": "DLTR",
+    "Security": "Dollar Tree",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Consumer Staples Merchandise Retail",
+    "Headquarters Location": "Chesapeake, Virginia"
+  },
+  {
+    "Symbol": "D",
+    "Security": "Dominion Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Richmond, Virginia"
+  },
+  {
+    "Symbol": "DPZ",
+    "Security": "Domino's",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Ann Arbor, Michigan"
+  },
+  {
+    "Symbol": "DASH",
+    "Security": "DoorDash",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Specialized Consumer Services",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "DOV",
+    "Security": "Dover Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Downers Grove, Illinois"
+  },
+  {
+    "Symbol": "DOW",
+    "Security": "Dow Inc.",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Commodity Chemicals",
+    "Headquarters Location": "Midland, Michigan"
+  },
+  {
+    "Symbol": "DHI",
+    "Security": "D. R. Horton",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Homebuilding",
+    "Headquarters Location": "Arlington, Texas"
+  },
+  {
+    "Symbol": "DTE",
+    "Security": "DTE Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Detroit , Michigan"
+  },
+  {
+    "Symbol": "DUK",
+    "Security": "Duke Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Charlotte, North Carolina"
+  },
+  {
+    "Symbol": "DD",
+    "Security": "DuPont",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Wilmington, Delaware"
+  },
+  {
+    "Symbol": "ETN",
+    "Security": "Eaton Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "EBAY",
+    "Security": "eBay Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Broadline Retail",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "SATS",
+    "Security": "EchoStar",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Wireless Telecommunication Services",
+    "Headquarters Location": "Englewood, Colorado"
+  },
+  {
+    "Symbol": "ECL",
+    "Security": "Ecolab",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Saint Paul, Minnesota"
+  },
+  {
+    "Symbol": "EIX",
+    "Security": "Edison International",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Rosemead, California"
+  },
+  {
+    "Symbol": "EW",
+    "Security": "Edwards Lifesciences",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Irvine, California"
+  },
+  {
+    "Symbol": "EA",
+    "Security": "Electronic Arts",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Home Entertainment",
+    "Headquarters Location": "Redwood City, California"
+  },
+  {
+    "Symbol": "ELV",
+    "Security": "Elevance Health",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Managed Health Care",
+    "Headquarters Location": "Indianapolis , Indiana"
+  },
+  {
+    "Symbol": "EME",
+    "Security": "Emcor",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction & Engineering",
+    "Headquarters Location": "Norwalk, Connecticut"
+  },
+  {
+    "Symbol": "EMR",
+    "Security": "Emerson Electric",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Ferguson, Missouri"
+  },
+  {
+    "Symbol": "ETR",
+    "Security": "Entergy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "New Orleans , Louisiana"
+  },
+  {
+    "Symbol": "EOG",
+    "Security": "EOG Resources",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "EPAM",
+    "Security": "EPAM Systems",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "Headquarters Location": "Newtown, Pennsylvania"
+  },
+  {
+    "Symbol": "EQT",
+    "Security": "EQT Corporation",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "EFX",
+    "Security": "Equifax",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Research & Consulting Services",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "EQIX",
+    "Security": "Equinix",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Data Center REITs",
+    "Headquarters Location": "Redwood City, California"
+  },
+  {
+    "Symbol": "EQR",
+    "Security": "Equity Residential",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Multi-Family Residential REITs",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "ERIE",
+    "Security": "Erie Indemnity",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "Headquarters Location": "Erie, Pennsylvania"
+  },
+  {
+    "Symbol": "ESS",
+    "Security": "Essex Property Trust",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Multi-Family Residential REITs",
+    "Headquarters Location": "San Mateo, California"
+  },
+  {
+    "Symbol": "EL",
+    "Security": "Estée Lauder Companies (The)",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Personal Care Products",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "EG",
+    "Security": "Everest Group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Reinsurance",
+    "Headquarters Location": "Hamilton, Bermuda"
+  },
+  {
+    "Symbol": "EVRG",
+    "Security": "Evergy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Kansas City, Missouri"
+  },
+  {
+    "Symbol": "ES",
+    "Security": "Eversource Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Hartford, Connecticut"
+  },
+  {
+    "Symbol": "EXC",
+    "Security": "Exelon",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "EXE",
+    "Security": "Expand Energy",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Oklahoma City , Oklahoma"
+  },
+  {
+    "Symbol": "EXPE",
+    "Security": "Expedia Group",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Seattle , Washington"
+  },
+  {
+    "Symbol": "EXPD",
+    "Security": "Expeditors International",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Air Freight & Logistics",
+    "Headquarters Location": "Seattle , Washington"
+  },
+  {
+    "Symbol": "EXR",
+    "Security": "Extra Space Storage",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Self-Storage REITs",
+    "Headquarters Location": "Salt Lake City , Utah"
+  },
+  {
+    "Symbol": "XOM",
+    "Security": "ExxonMobil",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Integrated Oil & Gas",
+    "Headquarters Location": "Irving, Texas"
+  },
+  {
+    "Symbol": "FFIV",
+    "Security": "F5, Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Communications Equipment",
+    "Headquarters Location": "Seattle , Washington"
+  },
+  {
+    "Symbol": "FDS",
+    "Security": "FactSet",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "Norwalk, Connecticut"
+  },
+  {
+    "Symbol": "FICO",
+    "Security": "Fair Isaac",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Bozeman, Montana"
+  },
+  {
+    "Symbol": "FAST",
+    "Security": "Fastenal",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Trading Companies & Distributors",
+    "Headquarters Location": "Winona, Minnesota"
+  },
+  {
+    "Symbol": "FRT",
+    "Security": "Federal Realty Investment Trust",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "Rockville, Maryland"
+  },
+  {
+    "Symbol": "FDX",
+    "Security": "FedEx",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Air Freight & Logistics",
+    "Headquarters Location": "Memphis, Tennessee"
+  },
+  {
+    "Symbol": "FIS",
+    "Security": "Fidelity National Information Services",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "Jacksonville, Florida"
+  },
+  {
+    "Symbol": "FITB",
+    "Security": "Fifth Third Bancorp",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Cincinnati , Ohio"
+  },
+  {
+    "Symbol": "FSLR",
+    "Security": "First Solar",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Tempe, Arizona"
+  },
+  {
+    "Symbol": "FE",
+    "Security": "FirstEnergy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Akron, Ohio"
+  },
+  {
+    "Symbol": "FISV",
+    "Security": "Fiserv",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "Brookfield, Wisconsin"
+  },
+  {
+    "Symbol": "F",
+    "Security": "Ford Motor Company",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automobile Manufacturers",
+    "Headquarters Location": "Dearborn, Michigan"
+  },
+  {
+    "Symbol": "FTNT",
+    "Security": "Fortinet",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Sunnyvale, California"
+  },
+  {
+    "Symbol": "FTV",
+    "Security": "Fortive",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Everett, Washington"
+  },
+  {
+    "Symbol": "FOXA",
+    "Security": "Fox Corporation (Class A)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Broadcasting",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "FOX",
+    "Security": "Fox Corporation (Class B)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Broadcasting",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "BEN",
+    "Security": "Franklin Resources",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "San Mateo, California"
+  },
+  {
+    "Symbol": "FCX",
+    "Security": "Freeport-McMoRan",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Copper",
+    "Headquarters Location": "Phoenix, Arizona"
+  },
+  {
+    "Symbol": "GRMN",
+    "Security": "Garmin",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Consumer Electronics",
+    "Headquarters Location": "Schaffhausen , Switzerland"
+  },
+  {
+    "Symbol": "IT",
+    "Security": "Gartner",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "Headquarters Location": "Stamford, Connecticut"
+  },
+  {
+    "Symbol": "GE",
+    "Security": "GE Aerospace",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Evendale, Ohio"
+  },
+  {
+    "Symbol": "GEHC",
+    "Security": "GE HealthCare",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "GEV",
+    "Security": "GE Vernova",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Heavy Electrical Equipment",
+    "Headquarters Location": "Cambridge, Massachusetts"
+  },
+  {
+    "Symbol": "GEN",
+    "Security": "Gen Digital",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Tempe, Arizona"
+  },
+  {
+    "Symbol": "GNRC",
+    "Security": "Generac",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Waukesha, Wisconsin"
+  },
+  {
+    "Symbol": "GD",
+    "Security": "General Dynamics",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Reston, Virginia"
+  },
+  {
+    "Symbol": "GIS",
+    "Security": "General Mills",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Golden Valley, Minnesota"
+  },
+  {
+    "Symbol": "GM",
+    "Security": "General Motors",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automobile Manufacturers",
+    "Headquarters Location": "Detroit , Michigan"
+  },
+  {
+    "Symbol": "GPC",
+    "Security": "Genuine Parts Company",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Distributors",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "GILD",
+    "Security": "Gilead Sciences",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Foster City, California"
+  },
+  {
+    "Symbol": "GPN",
+    "Security": "Global Payments",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "GL",
+    "Security": "Globe Life",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "McKinney, Texas"
+  },
+  {
+    "Symbol": "GDDY",
+    "Security": "GoDaddy",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "Headquarters Location": "Tempe, Arizona"
+  },
+  {
+    "Symbol": "GS",
+    "Security": "Goldman Sachs",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "HAL",
+    "Security": "Halliburton",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Equipment & Services",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "HIG",
+    "Security": "Hartford (The)",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Hartford, Connecticut"
+  },
+  {
+    "Symbol": "HAS",
+    "Security": "Hasbro",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Leisure Products",
+    "Headquarters Location": "Pawtucket, Rhode Island"
+  },
+  {
+    "Symbol": "HCA",
+    "Security": "HCA Healthcare",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Facilities",
+    "Headquarters Location": "Nashville, Tennessee"
+  },
+  {
+    "Symbol": "DOC",
+    "Security": "Healthpeak Properties",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Health Care REITs",
+    "Headquarters Location": "Denver , Colorado"
+  },
+  {
+    "Symbol": "HSIC",
+    "Security": "Henry Schein",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "Headquarters Location": "Melville, New York"
+  },
+  {
+    "Symbol": "HSY",
+    "Security": "Hershey Company (The)",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Hershey, Pennsylvania"
+  },
+  {
+    "Symbol": "HPE",
+    "Security": "Hewlett Packard Enterprise",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "HLT",
+    "Security": "Hilton Worldwide",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Tysons Corner, Virginia"
+  },
+  {
+    "Symbol": "HD",
+    "Security": "Home Depot (The)",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Home Improvement Retail",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "HON",
+    "Security": "Honeywell",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Conglomerates",
+    "Headquarters Location": "Charlotte, North Carolina"
+  },
+  {
+    "Symbol": "HRL",
+    "Security": "Hormel Foods",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Austin, Minnesota"
+  },
+  {
+    "Symbol": "HST",
+    "Security": "Host Hotels & Resorts",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Hotel & Resort REITs",
+    "Headquarters Location": "Bethesda, Maryland"
+  },
+  {
+    "Symbol": "HWM",
+    "Security": "Howmet Aerospace",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "HPQ",
+    "Security": "HP Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Palo Alto, California"
+  },
+  {
+    "Symbol": "HUBB",
+    "Security": "Hubbell Incorporated",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Shelton, Connecticut"
+  },
+  {
+    "Symbol": "HUM",
+    "Security": "Humana",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Managed Health Care",
+    "Headquarters Location": "Louisville, Kentucky"
+  },
+  {
+    "Symbol": "HBAN",
+    "Security": "Huntington Bancshares",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Columbus, Ohio ; Detroit , Michigan"
+  },
+  {
+    "Symbol": "HII",
+    "Security": "Huntington Ingalls Industries",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Newport News, Virginia"
+  },
+  {
+    "Symbol": "IBM",
+    "Security": "IBM",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "Headquarters Location": "Armonk, New York"
+  },
+  {
+    "Symbol": "IEX",
+    "Security": "IDEX Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Northbrook, Illinois"
+  },
+  {
+    "Symbol": "IDXX",
+    "Security": "Idexx Laboratories",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Westbrook, Maine"
+  },
+  {
+    "Symbol": "ITW",
+    "Security": "Illinois Tool Works",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Glenview, Illinois"
+  },
+  {
+    "Symbol": "INCY",
+    "Security": "Incyte",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Wilmington, Delaware"
+  },
+  {
+    "Symbol": "IR",
+    "Security": "Ingersoll Rand",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Davidson, North Carolina"
+  },
+  {
+    "Symbol": "PODD",
+    "Security": "Insulet Corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Acton, Massachusetts"
+  },
+  {
+    "Symbol": "INTC",
+    "Security": "Intel",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "IBKR",
+    "Security": "Interactive Brokers",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "Greenwich, Connecticut"
+  },
+  {
+    "Symbol": "ICE",
+    "Security": "Intercontinental Exchange",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "IFF",
+    "Security": "International Flavors & Fragrances",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "IP",
+    "Security": "International Paper",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Memphis, Tennessee"
+  },
+  {
+    "Symbol": "INTU",
+    "Security": "Intuit",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Mountain View, California"
+  },
+  {
+    "Symbol": "ISRG",
+    "Security": "Intuitive Surgical",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Sunnyvale, California"
+  },
+  {
+    "Symbol": "IVZ",
+    "Security": "Invesco",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "INVH",
+    "Security": "Invitation Homes",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Single-Family Residential REITs",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "IQV",
+    "Security": "IQVIA",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Durham, North Carolina"
+  },
+  {
+    "Symbol": "IRM",
+    "Security": "Iron Mountain",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Other Specialized REITs",
+    "Headquarters Location": "Portsmouth, New Hampshire"
+  },
+  {
+    "Symbol": "JBHT",
+    "Security": "J.B. Hunt",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Cargo Ground Transportation",
+    "Headquarters Location": "Lowell, Arkansas"
+  },
+  {
+    "Symbol": "JBL",
+    "Security": "Jabil",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Manufacturing Services",
+    "Headquarters Location": "St. Petersburg, Florida"
+  },
+  {
+    "Symbol": "JKHY",
+    "Security": "Jack Henry & Associates",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "Monett, Missouri"
+  },
+  {
+    "Symbol": "J",
+    "Security": "Jacobs Solutions",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction & Engineering",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "JNJ",
+    "Security": "Johnson & Johnson",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "New Brunswick, New Jersey"
+  },
+  {
+    "Symbol": "JCI",
+    "Security": "Johnson Controls",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Cork, Ireland"
+  },
+  {
+    "Symbol": "JPM",
+    "Security": "JPMorgan Chase",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "KVUE",
+    "Security": "Kenvue",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Personal Care Products",
+    "Headquarters Location": "Skillman, New Jersey"
+  },
+  {
+    "Symbol": "KDP",
+    "Security": "Keurig Dr Pepper",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages",
+    "Headquarters Location": "Burlington, Massachusetts"
+  },
+  {
+    "Symbol": "KEY",
+    "Security": "KeyCorp",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Cleveland , Ohio"
+  },
+  {
+    "Symbol": "KEYS",
+    "Security": "Keysight Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "Headquarters Location": "Santa Rosa, California"
+  },
+  {
+    "Symbol": "KMB",
+    "Security": "Kimberly-Clark",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Household Products",
+    "Headquarters Location": "Irving, Texas"
+  },
+  {
+    "Symbol": "KIM",
+    "Security": "Kimco Realty",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "Jericho, New York"
+  },
+  {
+    "Symbol": "KMI",
+    "Security": "Kinder Morgan",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "KKR",
+    "Security": "KKR & Co.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "KLAC",
+    "Security": "KLA Corporation",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductor Materials & Equipment",
+    "Headquarters Location": "Milpitas, California"
+  },
+  {
+    "Symbol": "KHC",
+    "Security": "Kraft Heinz",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Chicago , Illinois; Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "KR",
+    "Security": "Kroger",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Food Retail",
+    "Headquarters Location": "Cincinnati , Ohio"
+  },
+  {
+    "Symbol": "LHX",
+    "Security": "L3Harris",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Melbourne, Florida"
+  },
+  {
+    "Symbol": "LH",
+    "Security": "Labcorp",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Services",
+    "Headquarters Location": "Burlington, North Carolina"
+  },
+  {
+    "Symbol": "LRCX",
+    "Security": "Lam Research",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductor Materials & Equipment",
+    "Headquarters Location": "Fremont, California"
+  },
+  {
+    "Symbol": "LVS",
+    "Security": "Las Vegas Sands",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Casinos & Gaming",
+    "Headquarters Location": "Las Vegas , Nevada"
+  },
+  {
+    "Symbol": "LDOS",
+    "Security": "Leidos",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Diversified Support Services",
+    "Headquarters Location": "Reston, Virginia"
+  },
+  {
+    "Symbol": "LEN",
+    "Security": "Lennar",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Homebuilding",
+    "Headquarters Location": "Miami , Florida"
+  },
+  {
+    "Symbol": "LII",
+    "Security": "Lennox International",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Richardson, Texas"
+  },
+  {
+    "Symbol": "LLY",
+    "Security": "Lilly (Eli)",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "Indianapolis , Indiana"
+  },
+  {
+    "Symbol": "LIN",
+    "Security": "Linde plc",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Industrial Gases",
+    "Headquarters Location": "Guildford, United Kingdom"
+  },
+  {
+    "Symbol": "LYV",
+    "Security": "Live Nation Entertainment",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "Headquarters Location": "Beverly Hills, California"
+  },
+  {
+    "Symbol": "LMT",
+    "Security": "Lockheed Martin",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Bethesda, Maryland"
+  },
+  {
+    "Symbol": "L",
+    "Security": "Loews Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Multi-line Insurance",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "LOW",
+    "Security": "Lowe's",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Home Improvement Retail",
+    "Headquarters Location": "Mooresville, North Carolina"
+  },
+  {
+    "Symbol": "LULU",
+    "Security": "Lululemon Athletica",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "Headquarters Location": "Vancouver, Canada"
+  },
+  {
+    "Symbol": "LITE",
+    "Security": "Lumentum",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Communications Equipment",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "LYB",
+    "Security": "LyondellBasell",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Rotterdam, Netherlands"
+  },
+  {
+    "Symbol": "MTB",
+    "Security": "M&T Bank",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Buffalo, New York"
+  },
+  {
+    "Symbol": "MPC",
+    "Security": "Marathon Petroleum",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Refining & Marketing",
+    "Headquarters Location": "Findlay, Ohio"
+  },
+  {
+    "Symbol": "MAR",
+    "Security": "Marriott International",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Bethesda, Maryland"
+  },
+  {
+    "Symbol": "MRSH",
+    "Security": "Marsh McLennan",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "MLM",
+    "Security": "Martin Marietta Materials",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Construction Materials",
+    "Headquarters Location": "Raleigh, North Carolina"
+  },
+  {
+    "Symbol": "MAS",
+    "Security": "Masco",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Livonia, Michigan"
+  },
+  {
+    "Symbol": "MA",
+    "Security": "Mastercard",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "Harrison, New York"
+  },
+  {
+    "Symbol": "MKC",
+    "Security": "McCormick & Company",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Hunt Valley, Maryland"
+  },
+  {
+    "Symbol": "MCD",
+    "Security": "McDonald's",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "MCK",
+    "Security": "McKesson Corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "Headquarters Location": "Irving, Texas"
+  },
+  {
+    "Symbol": "MDT",
+    "Security": "Medtronic",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Galway , Ireland"
+  },
+  {
+    "Symbol": "MRK",
+    "Security": "Merck & Co.",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "Kenilworth, New Jersey"
+  },
+  {
+    "Symbol": "META",
+    "Security": "Meta Platforms",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "Headquarters Location": "Menlo Park, California"
+  },
+  {
+    "Symbol": "MET",
+    "Security": "MetLife",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "MTD",
+    "Security": "Mettler Toledo",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Columbus, Ohio"
+  },
+  {
+    "Symbol": "MGM",
+    "Security": "MGM Resorts",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Casinos & Gaming",
+    "Headquarters Location": "Paradise, Nevada"
+  },
+  {
+    "Symbol": "MCHP",
+    "Security": "Microchip Technology",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Chandler, Arizona"
+  },
+  {
+    "Symbol": "MU",
+    "Security": "Micron Technology",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Boise, Idaho"
+  },
+  {
+    "Symbol": "MSFT",
+    "Security": "Microsoft",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Redmond, Washington"
+  },
+  {
+    "Symbol": "MAA",
+    "Security": "Mid-America Apartment Communities",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Multi-Family Residential REITs",
+    "Headquarters Location": "Memphis, Tennessee"
+  },
+  {
+    "Symbol": "MRNA",
+    "Security": "Moderna",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Cambridge, Massachusetts"
+  },
+  {
+    "Symbol": "TAP",
+    "Security": "Molson Coors Beverage Company",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Brewers",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "MDLZ",
+    "Security": "Mondelez International",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "MPWR",
+    "Security": "Monolithic Power Systems",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Kirkland, Washington"
+  },
+  {
+    "Symbol": "MNST",
+    "Security": "Monster Beverage",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages",
+    "Headquarters Location": "Corona, California"
+  },
+  {
+    "Symbol": "MCO",
+    "Security": "Moody's Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "MS",
+    "Security": "Morgan Stanley",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "MOS",
+    "Security": "Mosaic Company (The)",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Fertilizers & Agricultural Chemicals",
+    "Headquarters Location": "Tampa, Florida"
+  },
+  {
+    "Symbol": "MSI",
+    "Security": "Motorola Solutions",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Communications Equipment",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "MSCI",
+    "Security": "MSCI Inc.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "NDAQ",
+    "Security": "Nasdaq, Inc.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "NTAP",
+    "Security": "NetApp",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "NFLX",
+    "Security": "Netflix",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "Headquarters Location": "Los Gatos, California"
+  },
+  {
+    "Symbol": "NEM",
+    "Security": "Newmont",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Gold",
+    "Headquarters Location": "Denver , Colorado"
+  },
+  {
+    "Symbol": "NWSA",
+    "Security": "News Corp (Class A)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Publishing",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "NWS",
+    "Security": "News Corp (Class B)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Publishing",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "NEE",
+    "Security": "NextEra Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Juno Beach, Florida"
+  },
+  {
+    "Symbol": "NKE",
+    "Security": "Nike, Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "Headquarters Location": "Washington County, Oregon"
+  },
+  {
+    "Symbol": "NI",
+    "Security": "NiSource",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Merrillville, Indiana"
+  },
+  {
+    "Symbol": "NDSN",
+    "Security": "Nordson Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Westlake, Ohio"
+  },
+  {
+    "Symbol": "NSC",
+    "Security": "Norfolk Southern",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Rail Transportation",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "NTRS",
+    "Security": "Northern Trust",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "NOC",
+    "Security": "Northrop Grumman",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "West Falls Church, Virginia [ 3 ]"
+  },
+  {
+    "Symbol": "NCLH",
+    "Security": "Norwegian Cruise Line Holdings",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Miami-Dade County , Florida [ 4 ]"
+  },
+  {
+    "Symbol": "NRG",
+    "Security": "NRG Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Independent Power Producers & Energy Traders",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "NUE",
+    "Security": "Nucor",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Steel",
+    "Headquarters Location": "Charlotte, North Carolina"
+  },
+  {
+    "Symbol": "NVDA",
+    "Security": "Nvidia",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "NVR",
+    "Security": "NVR, Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Homebuilding",
+    "Headquarters Location": "Reston, Virginia"
+  },
+  {
+    "Symbol": "NXPI",
+    "Security": "NXP Semiconductors",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Eindhoven, Netherlands"
+  },
+  {
+    "Symbol": "ORLY",
+    "Security": "O’Reilly Automotive",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automotive Retail",
+    "Headquarters Location": "Springfield, Missouri"
+  },
+  {
+    "Symbol": "OXY",
+    "Security": "Occidental Petroleum",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "ODFL",
+    "Security": "Old Dominion",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Cargo Ground Transportation",
+    "Headquarters Location": "Thomasville, North Carolina"
+  },
+  {
+    "Symbol": "OMC",
+    "Security": "Omnicom Group",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Advertising",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "ON",
+    "Security": "ON Semiconductor",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Phoenix, Arizona"
+  },
+  {
+    "Symbol": "OKE",
+    "Security": "Oneok",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
+    "Headquarters Location": "Tulsa, Oklahoma"
+  },
+  {
+    "Symbol": "ORCL",
+    "Security": "Oracle Corporation",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Austin, Texas"
+  },
+  {
+    "Symbol": "OTIS",
+    "Security": "Otis Worldwide",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Farmington, Connecticut"
+  },
+  {
+    "Symbol": "PCAR",
+    "Security": "Paccar",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment",
+    "Headquarters Location": "Bellevue, Washington"
+  },
+  {
+    "Symbol": "PKG",
+    "Security": "Packaging Corporation of America",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Lake Forest, Illinois"
+  },
+  {
+    "Symbol": "PLTR",
+    "Security": "Palantir Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Aventura, Florida"
+  },
+  {
+    "Symbol": "PANW",
+    "Security": "Palo Alto Networks",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "PSKY",
+    "Security": "Paramount Skydance Corporation",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "Headquarters Location": "Los Angeles , California"
+  },
+  {
+    "Symbol": "PH",
+    "Security": "Parker Hannifin",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Cleveland , Ohio"
+  },
+  {
+    "Symbol": "PAYX",
+    "Security": "Paychex",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Human Resource & Employment Services",
+    "Headquarters Location": "Penfield, New York"
+  },
+  {
+    "Symbol": "PYPL",
+    "Security": "PayPal",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "PNR",
+    "Security": "Pentair",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Worsley, United Kingdom"
+  },
+  {
+    "Symbol": "PEP",
+    "Security": "PepsiCo",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Soft Drinks & Non-alcoholic Beverages",
+    "Headquarters Location": "Purchase, New York"
+  },
+  {
+    "Symbol": "PFE",
+    "Security": "Pfizer",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "PCG",
+    "Security": "PG&E Corporation",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Oakland, California"
+  },
+  {
+    "Symbol": "PM",
+    "Security": "Philip Morris International",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Tobacco",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "PSX",
+    "Security": "Phillips 66",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Refining & Marketing",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "PNW",
+    "Security": "Pinnacle West Capital",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Phoenix, Arizona"
+  },
+  {
+    "Symbol": "PNC",
+    "Security": "PNC Financial Services",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "POOL",
+    "Security": "Pool Corporation",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Distributors",
+    "Headquarters Location": "Covington, Louisiana"
+  },
+  {
+    "Symbol": "PPG",
+    "Security": "PPG Industries",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "PPL",
+    "Security": "PPL Corporation",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Allentown, Pennsylvania"
+  },
+  {
+    "Symbol": "PFG",
+    "Security": "Principal Financial Group",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "Des Moines, Iowa"
+  },
+  {
+    "Symbol": "PG",
+    "Security": "Procter & Gamble",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Personal Care Products",
+    "Headquarters Location": "Cincinnati , Ohio"
+  },
+  {
+    "Symbol": "PGR",
+    "Security": "Progressive Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Mayfield Village, Ohio"
+  },
+  {
+    "Symbol": "PLD",
+    "Security": "Prologis",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Industrial REITs",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "PRU",
+    "Security": "Prudential Financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "Headquarters Location": "Newark, New Jersey"
+  },
+  {
+    "Symbol": "PEG",
+    "Security": "Public Service Enterprise Group",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Newark, New Jersey"
+  },
+  {
+    "Symbol": "PTC",
+    "Security": "PTC Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Boston , Massachusetts"
+  },
+  {
+    "Symbol": "PSA",
+    "Security": "Public Storage",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Self-Storage REITs",
+    "Headquarters Location": "Glendale, California"
+  },
+  {
+    "Symbol": "PHM",
+    "Security": "PulteGroup",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Homebuilding",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "PWR",
+    "Security": "Quanta Services",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction & Engineering",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "QCOM",
+    "Security": "Qualcomm",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "San Diego , California"
+  },
+  {
+    "Symbol": "DGX",
+    "Security": "Quest Diagnostics",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Services",
+    "Headquarters Location": "Secaucus, New Jersey"
+  },
+  {
+    "Symbol": "Q",
+    "Security": "Qnity Electronics",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductor Materials & Equipment",
+    "Headquarters Location": "Wilmington, Delaware"
+  },
+  {
+    "Symbol": "RL",
+    "Security": "Ralph Lauren Corporation",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "RJF",
+    "Security": "Raymond James Financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "St. Petersburg, Florida"
+  },
+  {
+    "Symbol": "RTX",
+    "Security": "RTX Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Waltham, Massachusetts"
+  },
+  {
+    "Symbol": "O",
+    "Security": "Realty Income",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "San Diego , California"
+  },
+  {
+    "Symbol": "REG",
+    "Security": "Regency Centers",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "Jacksonville, Florida"
+  },
+  {
+    "Symbol": "REGN",
+    "Security": "Regeneron Pharmaceuticals",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Tarrytown, New York"
+  },
+  {
+    "Symbol": "RF",
+    "Security": "Regions Financial Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Regional Banks",
+    "Headquarters Location": "Birmingham, Alabama"
+  },
+  {
+    "Symbol": "RSG",
+    "Security": "Republic Services",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Environmental & Facilities Services",
+    "Headquarters Location": "Phoenix, Arizona"
+  },
+  {
+    "Symbol": "RMD",
+    "Security": "ResMed",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "San Diego , California"
+  },
+  {
+    "Symbol": "RVTY",
+    "Security": "Revvity",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Waltham, Massachusetts"
+  },
+  {
+    "Symbol": "HOOD",
+    "Security": "Robinhood Markets",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "Headquarters Location": "Menlo Park, California"
+  },
+  {
+    "Symbol": "ROK",
+    "Security": "Rockwell Automation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Milwaukee , Wisconsin"
+  },
+  {
+    "Symbol": "ROL",
+    "Security": "Rollins, Inc.",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Environmental & Facilities Services",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "ROP",
+    "Security": "Roper Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "Headquarters Location": "Sarasota, Florida"
+  },
+  {
+    "Symbol": "ROST",
+    "Security": "Ross Stores",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel Retail",
+    "Headquarters Location": "Dublin, California"
+  },
+  {
+    "Symbol": "RCL",
+    "Security": "Royal Caribbean Group",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "Headquarters Location": "Miami , Florida"
+  },
+  {
+    "Symbol": "SPGI",
+    "Security": "S&P Global",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "CRM",
+    "Security": "Salesforce",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "SNDK",
+    "Security": "Sandisk",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Milpitas, California"
+  },
+  {
+    "Symbol": "SBAC",
+    "Security": "SBA Communications",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Telecom Tower REITs",
+    "Headquarters Location": "Boca Raton, Florida"
+  },
+  {
+    "Symbol": "SLB",
+    "Security": "Schlumberger",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Equipment & Services",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "STX",
+    "Security": "Seagate Technology",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "SRE",
+    "Security": "Sempra",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "San Diego , California"
+  },
+  {
+    "Symbol": "NOW",
+    "Security": "ServiceNow",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Systems Software",
+    "Headquarters Location": "Santa Clara, California"
+  },
+  {
+    "Symbol": "SHW",
+    "Security": "Sherwin-Williams",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Specialty Chemicals",
+    "Headquarters Location": "Cleveland , Ohio"
+  },
+  {
+    "Symbol": "SPG",
+    "Security": "Simon Property Group",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Retail REITs",
+    "Headquarters Location": "Indianapolis , Indiana"
+  },
+  {
+    "Symbol": "SWKS",
+    "Security": "Skyworks Solutions",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Irvine, California"
+  },
+  {
+    "Symbol": "SJM",
+    "Security": "J.M. Smucker Company (The)",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Orrville, Ohio"
+  },
+  {
+    "Symbol": "SW",
+    "Security": "Smurfit Westrock",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Paper & Plastic Packaging Products & Materials",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "SNA",
+    "Security": "Snap-on",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Kenosha, Wisconsin"
+  },
+  {
+    "Symbol": "SOLV",
+    "Security": "Solventum",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Technology",
+    "Headquarters Location": "Saint Paul, Minnesota"
+  },
+  {
+    "Symbol": "SO",
+    "Security": "Southern Company",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Atlanta , Georgia"
+  },
+  {
+    "Symbol": "LUV",
+    "Security": "Southwest Airlines",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Passenger Airlines",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "SWK",
+    "Security": "Stanley Black & Decker",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "New Britain, Connecticut"
+  },
+  {
+    "Symbol": "SBUX",
+    "Security": "Starbucks",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Seattle , Washington"
+  },
+  {
+    "Symbol": "STT",
+    "Security": "State Street Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Boston , Massachusetts"
+  },
+  {
+    "Symbol": "STLD",
+    "Security": "Steel Dynamics",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Steel",
+    "Headquarters Location": "Fort Wayne, Indiana"
+  },
+  {
+    "Symbol": "STE",
+    "Security": "Steris",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "SYK",
+    "Security": "Stryker Corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Kalamazoo, Michigan"
+  },
+  {
+    "Symbol": "SMCI",
+    "Security": "Supermicro",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "SYF",
+    "Security": "Synchrony Financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Consumer Finance",
+    "Headquarters Location": "Stamford, Connecticut"
+  },
+  {
+    "Symbol": "SNPS",
+    "Security": "Synopsys",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Sunnyvale, California"
+  },
+  {
+    "Symbol": "SYY",
+    "Security": "Sysco",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Food Distributors",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "TMUS",
+    "Security": "T-Mobile US",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Wireless Telecommunication Services",
+    "Headquarters Location": "Bellevue, Washington"
+  },
+  {
+    "Symbol": "TROW",
+    "Security": "T. Rowe Price",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "Headquarters Location": "Baltimore , Maryland"
+  },
+  {
+    "Symbol": "TTWO",
+    "Security": "Take-Two Interactive",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Interactive Home Entertainment",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "TPR",
+    "Security": "Tapestry, Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "TRGP",
+    "Security": "Targa Resources",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "TGT",
+    "Security": "Target Corporation",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Consumer Staples Merchandise Retail",
+    "Headquarters Location": "Minneapolis , Minnesota"
+  },
+  {
+    "Symbol": "TEL",
+    "Security": "TE Connectivity",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Manufacturing Services",
+    "Headquarters Location": "Galway , Ireland"
+  },
+  {
+    "Symbol": "TDY",
+    "Security": "Teledyne Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "Headquarters Location": "Thousand Oaks, California"
+  },
+  {
+    "Symbol": "TER",
+    "Security": "Teradyne",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductor Materials & Equipment",
+    "Headquarters Location": "North Reading, Massachusetts"
+  },
+  {
+    "Symbol": "TSLA",
+    "Security": "Tesla, Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Automobile Manufacturers",
+    "Headquarters Location": "Austin, Texas"
+  },
+  {
+    "Symbol": "TXN",
+    "Security": "Texas Instruments",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "TPL",
+    "Security": "Texas Pacific Land Corporation",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Exploration & Production",
+    "Headquarters Location": "Dallas , Texas"
+  },
+  {
+    "Symbol": "TXT",
+    "Security": "Textron",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Providence, Rhode Island"
+  },
+  {
+    "Symbol": "TMO",
+    "Security": "Thermo Fisher Scientific",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Waltham, Massachusetts"
+  },
+  {
+    "Symbol": "TJX",
+    "Security": "TJX Companies",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Apparel Retail",
+    "Headquarters Location": "Framingham, Massachusetts"
+  },
+  {
+    "Symbol": "TKO",
+    "Security": "TKO Group Holdings",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "TTD",
+    "Security": "Trade Desk (The)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Advertising",
+    "Headquarters Location": "Ventura, California"
+  },
+  {
+    "Symbol": "TSCO",
+    "Security": "Tractor Supply",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Other Specialty Retail",
+    "Headquarters Location": "Brentwood, Tennessee"
+  },
+  {
+    "Symbol": "TT",
+    "Security": "Trane Technologies",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Building Products",
+    "Headquarters Location": "Dublin , Ireland"
+  },
+  {
+    "Symbol": "TDG",
+    "Security": "TransDigm Group",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Aerospace & Defense",
+    "Headquarters Location": "Cleveland , Ohio"
+  },
+  {
+    "Symbol": "TRV",
+    "Security": "Travelers Companies (The)",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "TRMB",
+    "Security": "Trimble Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Westminster, Colorado"
+  },
+  {
+    "Symbol": "TFC",
+    "Security": "Truist Financial",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "Charlotte, North Carolina"
+  },
+  {
+    "Symbol": "TYL",
+    "Security": "Tyler Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Plano, Texas"
+  },
+  {
+    "Symbol": "TSN",
+    "Security": "Tyson Foods",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Packaged Foods & Meats",
+    "Headquarters Location": "Springdale, Arkansas"
+  },
+  {
+    "Symbol": "USB",
+    "Security": "U.S. Bancorp",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "Minneapolis , Minnesota"
+  },
+  {
+    "Symbol": "UBER",
+    "Security": "Uber",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Passenger Ground Transportation",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "UDR",
+    "Security": "UDR, Inc.",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Multi-Family Residential REITs",
+    "Headquarters Location": "Highlands Ranch, Colorado"
+  },
+  {
+    "Symbol": "ULTA",
+    "Security": "Ulta Beauty",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Other Specialty Retail",
+    "Headquarters Location": "Bolingbrook, Illinois"
+  },
+  {
+    "Symbol": "UNP",
+    "Security": "Union Pacific Corporation",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Rail Transportation",
+    "Headquarters Location": "Omaha, Nebraska"
+  },
+  {
+    "Symbol": "UAL",
+    "Security": "United Airlines Holdings",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Passenger Airlines",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "UPS",
+    "Security": "United Parcel Service",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Air Freight & Logistics",
+    "Headquarters Location": "Sandy Springs, Georgia"
+  },
+  {
+    "Symbol": "URI",
+    "Security": "United Rentals",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Trading Companies & Distributors",
+    "Headquarters Location": "Stamford, Connecticut"
+  },
+  {
+    "Symbol": "UNH",
+    "Security": "UnitedHealth Group",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Managed Health Care",
+    "Headquarters Location": "Eden Prairie, Minnesota"
+  },
+  {
+    "Symbol": "UHS",
+    "Security": "Universal Health Services",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Facilities",
+    "Headquarters Location": "King of Prussia, Pennsylvania"
+  },
+  {
+    "Symbol": "VLO",
+    "Security": "Valero Energy",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Refining & Marketing",
+    "Headquarters Location": "San Antonio , Texas"
+  },
+  {
+    "Symbol": "VEEV",
+    "Security": "Veeva Systems",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Technology",
+    "Headquarters Location": "Pleasanton, California"
+  },
+  {
+    "Symbol": "VTR",
+    "Security": "Ventas",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Health Care REITs",
+    "Headquarters Location": "Chicago , Illinois"
+  },
+  {
+    "Symbol": "VLTO",
+    "Security": "Veralto",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Environmental & Facilities Services",
+    "Headquarters Location": "Waltham, Massachusetts"
+  },
+  {
+    "Symbol": "VRSN",
+    "Security": "Verisign",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "Headquarters Location": "Reston, Virginia"
+  },
+  {
+    "Symbol": "VRSK",
+    "Security": "Verisk Analytics",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Research & Consulting Services",
+    "Headquarters Location": "Jersey City, New Jersey"
+  },
+  {
+    "Symbol": "VZ",
+    "Security": "Verizon",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Integrated Telecommunication Services",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "VRTX",
+    "Security": "Vertex Pharmaceuticals",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Biotechnology",
+    "Headquarters Location": "Boston , Massachusetts"
+  },
+  {
+    "Symbol": "VRT",
+    "Security": "Vertiv",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Electrical Components & Equipment",
+    "Headquarters Location": "Westerville, Ohio"
+  },
+  {
+    "Symbol": "VTRS",
+    "Security": "Viatris",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "VICI",
+    "Security": "Vici Properties",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Hotel & Resort REITs",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "V",
+    "Security": "Visa Inc.",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Transaction & Payment Processing Services",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "VST",
+    "Security": "Vistra Corp .",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Irving, Texas"
+  },
+  {
+    "Symbol": "VMC",
+    "Security": "Vulcan Materials Company",
+    "GICS Sector": "Materials",
+    "GICS Sub-Industry": "Construction Materials",
+    "Headquarters Location": "Birmingham, Alabama"
+  },
+  {
+    "Symbol": "WRB",
+    "Security": "W. R. Berkley Corporation",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "Headquarters Location": "Greenwich, Connecticut"
+  },
+  {
+    "Symbol": "GWW",
+    "Security": "W. W. Grainger",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "Lake Forest, Illinois"
+  },
+  {
+    "Symbol": "WAB",
+    "Security": "Wabtec",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Construction Machinery & Heavy Transportation Equipment",
+    "Headquarters Location": "Pittsburgh , Pennsylvania"
+  },
+  {
+    "Symbol": "WMT",
+    "Security": "Walmart",
+    "GICS Sector": "Consumer Staples",
+    "GICS Sub-Industry": "Consumer Staples Merchandise Retail",
+    "Headquarters Location": "Bentonville, Arkansas"
+  },
+  {
+    "Symbol": "DIS",
+    "Security": "Walt Disney Company (The)",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "Headquarters Location": "Burbank, California"
+  },
+  {
+    "Symbol": "WBD",
+    "Security": "Warner Bros. Discovery",
+    "GICS Sector": "Communication Services",
+    "GICS Sub-Industry": "Broadcasting",
+    "Headquarters Location": "New York City , New York"
+  },
+  {
+    "Symbol": "WM",
+    "Security": "Waste Management",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Environmental & Facilities Services",
+    "Headquarters Location": "Houston , Texas"
+  },
+  {
+    "Symbol": "WAT",
+    "Security": "Waters Corporation",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "Headquarters Location": "Milford, Massachusetts"
+  },
+  {
+    "Symbol": "WEC",
+    "Security": "WEC Energy Group",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Electric Utilities",
+    "Headquarters Location": "Milwaukee , Wisconsin"
+  },
+  {
+    "Symbol": "WFC",
+    "Security": "Wells Fargo",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Diversified Banks",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "WELL",
+    "Security": "Welltower",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Health Care REITs",
+    "Headquarters Location": "Toledo, Ohio"
+  },
+  {
+    "Symbol": "WST",
+    "Security": "West Pharmaceutical Services",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "Headquarters Location": "Exton, Pennsylvania"
+  },
+  {
+    "Symbol": "WDC",
+    "Security": "Western Digital",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "Headquarters Location": "San Jose, California"
+  },
+  {
+    "Symbol": "WY",
+    "Security": "Weyerhaeuser",
+    "GICS Sector": "Real Estate",
+    "GICS Sub-Industry": "Timber REITs",
+    "Headquarters Location": "Seattle , Washington"
+  },
+  {
+    "Symbol": "WSM",
+    "Security": "Williams-Sonoma, Inc.",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Homefurnishing Retail",
+    "Headquarters Location": "San Francisco , California"
+  },
+  {
+    "Symbol": "WMB",
+    "Security": "Williams Companies",
+    "GICS Sector": "Energy",
+    "GICS Sub-Industry": "Oil & Gas Storage & Transportation",
+    "Headquarters Location": "Tulsa, Oklahoma"
+  },
+  {
+    "Symbol": "WTW",
+    "Security": "Willis Towers Watson",
+    "GICS Sector": "Financials",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "Headquarters Location": "London , United Kingdom"
+  },
+  {
+    "Symbol": "WDAY",
+    "Security": "Workday, Inc.",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Application Software",
+    "Headquarters Location": "Pleasanton, California"
+  },
+  {
+    "Symbol": "WYNN",
+    "Security": "Wynn Resorts",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Casinos & Gaming",
+    "Headquarters Location": "Paradise, Nevada"
+  },
+  {
+    "Symbol": "XEL",
+    "Security": "Xcel Energy",
+    "GICS Sector": "Utilities",
+    "GICS Sub-Industry": "Multi-Utilities",
+    "Headquarters Location": "Minneapolis , Minnesota"
+  },
+  {
+    "Symbol": "XYL",
+    "Security": "Xylem Inc.",
+    "GICS Sector": "Industrials",
+    "GICS Sub-Industry": "Industrial Machinery & Supplies & Components",
+    "Headquarters Location": "White Plains, New York"
+  },
+  {
+    "Symbol": "YUM",
+    "Security": "Yum! Brands",
+    "GICS Sector": "Consumer Discretionary",
+    "GICS Sub-Industry": "Restaurants",
+    "Headquarters Location": "Louisville, Kentucky"
+  },
+  {
+    "Symbol": "ZBRA",
+    "Security": "Zebra Technologies",
+    "GICS Sector": "Information Technology",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "Headquarters Location": "Lincolnshire, Illinois"
+  },
+  {
+    "Symbol": "ZBH",
+    "Security": "Zimmer Biomet",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "Headquarters Location": "Warsaw, Indiana"
+  },
+  {
+    "Symbol": "ZTS",
+    "Security": "Zoetis",
+    "GICS Sector": "Health Care",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "Headquarters Location": "Parsippany, New Jersey"
+  }
+]

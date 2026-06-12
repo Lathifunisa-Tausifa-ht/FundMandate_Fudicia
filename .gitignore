@@ -1,0 +1,26 @@
+# Node (client)
+app/client/node_modules/
+app/client/dist/
+app/client/build/
+
+# Python (server)
+app/server/venv/
+app/server/__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+.venv
+apps/server/venv
+apps/server/src/logs
+
+#large file size
+apps/server/bandit_report.json
