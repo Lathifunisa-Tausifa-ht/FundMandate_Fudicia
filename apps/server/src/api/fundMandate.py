@@ -234,34 +234,44 @@ def aggregate_screening_tool_results(messages: list[Any]) -> tuple[list[dict[str
         except Exception:
             continue
  
-        for result_type, status_value in [("passed_companies", "pass"), ("conditional_companies", "conditional")]:
+        # Process passed / conditional / failed companies and capture per-parameter results
+        for result_type, status_value in [("passed_companies", "pass"), ("conditional_companies", "conditional"), ("failed_companies", "fail")]:
             for company in parsed.get(result_type, []):
                 company_id = company.get("company_id") or company.get("id")
                 if company_id is None:
                     continue
- 
+
                 entry = companies.setdefault(company_id, {
                     "company": company,
                     "statuses": {},
                     "reasons": [],
-                    "null_parameters": []
+                    "null_parameters": [],
+                    "parameter_results_by_tool": {}
                 })
- 
+
                 entry["company"] = company
                 entry["statuses"][tool_name] = status_value
- 
+
+                # merge reasons
                 reason = company.get("reason", "")
                 if reason:
                     entry["reasons"].append(reason)
- 
+
+                # collect null parameters
                 if status_value == "conditional":
                     null_params = company.get("null_parameters", [])
                     if isinstance(null_params, list):
                         entry["null_parameters"].extend(null_params)
+
+                # store per-parameter screening results from this tool
+                param_results = company.get("parameter_results", [])
+                if isinstance(param_results, list):
+                    entry["parameter_results_by_tool"][tool_name] = param_results
  
     final_details = []
     total_passed = 0
     total_conditional = 0
+    total_failed = 0
     num_tools = len(tool_names)
  
     for company_id, entry in companies.items():
@@ -280,8 +290,16 @@ def aggregate_screening_tool_results(messages: list[Any]) -> tuple[list[dict[str
                 entry_reasons.append(f"Not evaluated by: {', '.join(missing_tools)}")
                 entry["reasons"] = entry_reasons
 
-        # Determine overall status: require all 'pass' to be Pass; any 'conditional' or 'no_data' -> Conditional
-        if all(status == "pass" for status in statuses.values()):
+        # Determine overall status:
+        # - If any tool reported 'fail' => overall Fail
+        # - Else if all tools 'pass' => Pass
+        # - Else => Conditional
+        if any(s == "fail" for s in statuses.values()):
+            status = "Fail"
+            total_failed += 1
+            # Do not include failed companies in final output per user preference
+            continue
+        elif all(s == "pass" for s in statuses.values()):
             status = "Pass"
             total_passed += 1
         else:
@@ -292,14 +310,51 @@ def aggregate_screening_tool_results(messages: list[Any]) -> tuple[list[dict[str
         company_name = company_data.get("Company") or company_data.get("company_name") or "Unknown"
         reasons = entry["reasons"]
         null_parameters = list(dict.fromkeys(entry["null_parameters"]))
- 
-        if status == "Pass":
-            reason = combine_tool_reasons(reasons)
-        else:
-            if null_parameters:
-                reason = f"The company meets most screening criteria but lacks data for {', '.join(null_parameters)}, preventing complete assessment."
+
+        # Build a per-parameter consolidated summary from parameter_results_by_tool
+        param_map: dict[str, dict] = {}
+        pr_by_tool = entry.get("parameter_results_by_tool", {})
+        for tool, pr_list in pr_by_tool.items():
+            for pr in pr_list:
+                pname = pr.get("param") or pr.get("param_name") or pr.get("param_name", "unknown")
+                pname = str(pname)
+                if pname not in param_map:
+                    param_map[pname] = {"per_tool": {}, "final_statuses": []}
+                param_map[pname]["per_tool"][tool] = pr
+
+        # Derive consolidated param statuses
+        reason_lines = []
+        for pname, info in param_map.items():
+            per_tool = info["per_tool"]
+            statuses_list = [v.get("status") for v in per_tool.values() if isinstance(v, dict)]
+            if any(s == "fail" for s in statuses_list):
+                final_p = "FAIL"
+            elif any(s == "null" for s in statuses_list):
+                final_p = "MISSING"
+            elif all(s == "pass" for s in statuses_list) and statuses_list:
+                final_p = "PASS"
             else:
-                reason = combine_tool_reasons(reasons) or "The company has mixed screening results across tools."
+                final_p = "MIXED"
+
+            # Build short per-tool detail
+            tool_parts = []
+            for tname, pr in per_tool.items():
+                st = pr.get("status")
+                r = pr.get("reason", "")
+                tool_parts.append(f"{tname}:{st}{('('+r+')') if r else ''}")
+
+            reason_lines.append(f"{pname}: {final_p} [{'; '.join(tool_parts)}]")
+
+        if reason_lines:
+            reason = "; ".join(reason_lines)
+        else:
+            if status == "Pass":
+                reason = combine_tool_reasons(reasons)
+            else:
+                if null_parameters:
+                    reason = f"The company meets most screening criteria but lacks data for {', '.join(null_parameters)}, preventing complete assessment."
+                else:
+                    reason = combine_tool_reasons(reasons) or "The company has mixed screening results across tools."
  
         item = {
             "id": company_id,
