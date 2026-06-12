@@ -583,10 +583,12 @@ async def _scale_liquidity_screening_impl(
         screening_results = screen_companies_advanced(scale_liquidity_params, companies_data)
         passed_companies = screening_results.get("passed", [])
         conditional_companies = screening_results.get("conditional", [])
+        failed_companies = screening_results.get("failed", [])
 
         screening_logger.info("[SCALE/LIQUIDITY TOOL] Screening Results:")
         screening_logger.info(f"   Passed: {len(passed_companies)} companies")
         screening_logger.info(f"   Conditional: {len(conditional_companies)} companies")
+        screening_logger.info(f"   Failed: {len(failed_companies)} companies")
 
         # Format output with company_id already present
         passed_list = []
@@ -610,15 +612,27 @@ async def _scale_liquidity_screening_impl(
             company_data["Company"] = company_data["company_name"]
             conditional_list.append(company_data)
 
+        failed_list = []
+        for company in failed_companies:
+            company_data = company["company_details"].copy()
+            company_data["status"] = "Fail"
+            company_data["reason"] = company.get("reason", "")
+            company_data["parameter_results"] = company.get("parameter_results", [])
+            company_data["company_name"] = company.get("company_name", "Unknown")
+            company_data["Company"] = company_data["company_name"]
+            failed_list.append(company_data)
+
         screening_logger.info(
-            f"[SCALE/LIQUIDITY TOOL] Returning {len(passed_list)} passed + {len(conditional_list)} conditional companies\n")
+            f"[SCALE/LIQUIDITY TOOL] Returning {len(passed_list)} passed + {len(conditional_list)} conditional + {len(failed_list)} failed companies\n")
 
         result = {
             "passed_companies": passed_list,
             "conditional_companies": conditional_list,
+            "failed_companies": failed_list,
             "tool_used": "scale_liquidity",
             "passed_count": len(passed_list),
             "conditional_count": len(conditional_list),
+            "failed_count": len(failed_list),
             "parameters_screened": list(scale_liquidity_params.keys()),
             "total_parameters": len(scale_liquidity_params),
             "total_companies_screened": len(companies_data)
@@ -718,10 +732,12 @@ async def _profitability_valuation_screening_impl(
         screening_results = screen_companies_advanced(prof_val_params, companies_data)
         passed_companies = screening_results.get("passed", [])
         conditional_companies = screening_results.get("conditional", [])
+        failed_companies = screening_results.get("failed", [])
 
         screening_logger.info("[PROFITABILITY/VALUATION TOOL] Screening Results:")
         screening_logger.info(f"  Passed: {len(passed_companies)} companies")
         screening_logger.info(f"  Conditional: {len(conditional_companies)} companies")
+        screening_logger.info(f"  Failed: {len(failed_companies)} companies")
 
         # Format output with company_id already present
         passed_list = []
@@ -745,15 +761,27 @@ async def _profitability_valuation_screening_impl(
             company_data["Company"] = company_data["company_name"]
             conditional_list.append(company_data)
 
+        failed_list = []
+        for company in failed_companies:
+            company_data = company["company_details"].copy()
+            company_data["status"] = "Fail"
+            company_data["reason"] = company.get("reason", "")
+            company_data["parameter_results"] = company.get("parameter_results", [])
+            company_data["company_name"] = company.get("company_name", "Unknown")
+            company_data["Company"] = company_data["company_name"]
+            failed_list.append(company_data)
+
         screening_logger.info(
-            f"[PROFITABILITY/VALUATION TOOL] Returning {len(passed_list)} passed + {len(conditional_list)} conditional companies\n")
+            f"[PROFITABILITY/VALUATION_TOOL] Returning {len(passed_list)} passed + {len(conditional_list)} conditional + {len(failed_list)} failed companies\n")
 
         result = {
             "passed_companies": passed_list,
             "conditional_companies": conditional_list,
+            "failed_companies": failed_list,
             "tool_used": "profitability_valuation",
             "passed_count": len(passed_list),
             "conditional_count": len(conditional_list),
+            "failed_count": len(failed_list),
             "parameters_screened": list(prof_val_params.keys()),
             "total_parameters": len(prof_val_params),
             "total_companies_screened": len(companies_data)
@@ -1019,6 +1047,7 @@ def screen_companies_advanced(mandate_parameters: dict, companies: list) -> dict
     """
     passed_companies = []
     conditional_companies = []
+    failed_companies = []
 
     try:
         if not mandate_parameters or not companies:
@@ -1093,7 +1122,6 @@ def screen_companies_advanced(mandate_parameters: dict, companies: list) -> dict
                         "company_details": company
                     })
                     company_logger.info(f"PASSED: company_id={company_id}, name={company_name}")
-
                 elif all_non_null_passed and null_params:
                     # Parameters passed but some data missing
                     reason_text = " | ".join(pass_reasons) if pass_reasons else "Meets required criteria"
@@ -1111,13 +1139,26 @@ def screen_companies_advanced(mandate_parameters: dict, companies: list) -> dict
                         "company_details": company
                     })
                     company_logger.info(f"CONDITIONAL: company_id={company_id}, name={company_name}, missing: {missing_data_text}")
-                # else: company failed screening, don't include it
+                else:
+                    # Company failed on at least one required parameter — record as failed
+                    failing_reasons = [pr.get("reason") for pr in parameter_results if pr.get("status") == "fail"]
+                    fail_reason = " | ".join(failing_reasons) if failing_reasons else "Failed required parameter(s)"
+                    failed_companies.append({
+                        "company_name": company_name,
+                        "sector": sector,
+                        "company_id": company_id,
+                        "status": "Fail",
+                        "reason": fail_reason,
+                        "parameter_results": parameter_results,
+                        "company_details": company
+                    })
+                    company_logger.info(f"FAILED: company_id={company_id}, name={company_name}, reason: {fail_reason}")
 
             except Exception as e:
                 company_logger.error(f"Error screening company {company.get('company_id')}: {e}", exc_info=True)
 
-        screening_logger.info(f"Advanced screening complete: {len(passed_companies)} passed, {len(conditional_companies)} conditional")
-        return {"passed": passed_companies, "conditional": conditional_companies}
+        screening_logger.info(f"Advanced screening complete: {len(passed_companies)} passed, {len(conditional_companies)} conditional, {len(failed_companies)} failed")
+        return {"passed": passed_companies, "conditional": conditional_companies, "failed": failed_companies}
 
     except Exception as e:
         screening_logger.error(f"Fatal error in screen_companies_advanced: {e}", exc_info=True)
