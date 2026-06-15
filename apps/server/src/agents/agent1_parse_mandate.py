@@ -10,7 +10,8 @@ from typing_extensions import TypedDict
 
 from utils.gpt_4_llm import get_azure_chat_openai as get_azure_chat_openai_gpt4
 from utils.gpt_5_llm import get_azure_chat_openai as get_azure_chat_openai_gpt5
-from utils.tools import extract_dynamic_criteria, scan_mandate_folder_and_parse  # Fixed above
+from utils.tools import extract_dynamic_criteria, scan_mandate_folder_and_parse
+from utils.tools import set_active_llm
 
 load_dotenv()
 
@@ -98,6 +99,9 @@ def agent_node(state: AgentState, config=None) -> dict:
     if llm is None:
         raise RuntimeError(f"Failed to initialize LLM for model: {llm_model}")
 
+    # Set active LLM so tools use the same model
+    set_active_llm(llm)
+
     llm_no_tools = llm  # No bind_tools - allows plain text output
     result_no_tools = agent_prompt | llm_no_tools
 
@@ -147,17 +151,3 @@ workflow.add_edge(START, "agent")
 workflow.add_conditional_edges("agent", tools_condition)
 workflow.add_edge("tools", "agent")
 graph = workflow.compile()  # NO checkpointer - fresh state on each invoke
-
-if __name__ == "__main__":
-    # Test with pdf_name, query, and capability_params
-    user_input = {
-        "messages": [HumanMessage(content="Scan input_fund_mandate and extract criteria")],
-        "pdf_name": "fund_mandate.pdf",
-        "query": "Scan input_fund_mandate and extract criteria",
-        "capability_params": {}
-    }
-    result = graph.invoke(user_input)
-
-    # Final JSON in last message
-    final_msg = result["messages"][-1]
-    print("MANDATE JSON:", final_msg.content)

@@ -493,9 +493,15 @@ const SourcingAgent: React.FC = () => {
         selectedParams[item.key.toLowerCase().replace(/\s+/g, '_')] = item.value;
       });
 
+      const getSelectedLLMModel = () => {
+        const savedModel = localStorage.getItem('selectedLLMModel');
+        return savedModel === 'gpt-5' ? 'gpt-5' : 'gpt-4';
+      };
+
       const payload = {
         mandate_id: mandateId,
-        additionalProp1: selectedParams
+        additionalProp1: selectedParams,
+        model: getSelectedLLMModel(),
       };
 
       console.log('Sourcing payload:', payload);
