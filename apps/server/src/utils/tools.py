@@ -12,7 +12,7 @@ from rapidfuzz import process
 import requests
 import yfinance as yf
 
-from utils.llm_testing import get_azure_chat_openai
+from utils.gpt_4_llm import get_azure_chat_openai
 import os
 import sys
 from dotenv import load_dotenv

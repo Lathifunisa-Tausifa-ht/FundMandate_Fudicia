@@ -6,7 +6,7 @@ import sys
 import traceback
 from typing import Annotated, Any, TypedDict
 # Import Azure LLM
-from utils.llm_testing import get_azure_chat_openai
+from utils.gpt_4_llm import get_azure_chat_openai
  
 # Import StructuredTools from screening_tools
 from utils.screening_tools import (

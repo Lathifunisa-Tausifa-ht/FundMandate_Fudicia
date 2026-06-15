@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, START, StateGraph
 from langgraph.prebuilt import ToolNode
 # YOUR EXACT TOOL ✅ (No modification needed)
-from utils.llm_testing import get_azure_chat_openai  # Your LLM
+from utils.gpt_4_llm import get_azure_chat_openai  # Your LLM
 from utils.tools import load_and_filter_companies
 
 load_dotenv()

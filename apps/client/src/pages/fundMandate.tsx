@@ -71,6 +71,11 @@ const FundMandate: React.FC = () => {
   const navigate = useNavigate();
 
   // Ensure the first mandate parameter (subprocess) expands by default when results are shown
+  const getSelectedLLMModel = () => {
+    const savedModel = localStorage.getItem('selectedLLMModel');
+    return savedModel === 'gpt-5' ? 'gpt-5' : 'gpt-4';
+  };
+
   useEffect(() => {
     if (isSubmitted && subprocesses && subprocesses.length > 0) {
       const firstId = subprocesses[0].id;
@@ -559,7 +564,8 @@ const FundMandate: React.FC = () => {
           pdf_name: filename,
           query: queryData,
           capability_params: orderedCapabilityParams,
-          mandate_id: newMandateId  // Include mandate_id for linking extracted parameters
+          mandate_id: newMandateId, // Include mandate_id for linking extracted parameters
+          model: getSelectedLLMModel(),
         };
 
         // Log the exact JSON we will send (double-quoted keys/strings)
