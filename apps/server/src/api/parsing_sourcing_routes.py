@@ -420,7 +420,8 @@ async def ws_parse_mandate_realtime(websocket: WebSocket, session_id: str):
                 "messages": [HumanMessage(content=query)],
                 "pdf_name": pdf_name,
                 "query": query,
-                "capability_params": capability_params
+                "capability_params": capability_params,
+                "llm_model": msg.get("model", "gpt-4")
             }
 
             config = {
@@ -644,7 +645,8 @@ async def ws_filter_companies_realtime(websocket: WebSocket, session_id: str):
                 await streaming_task
                 return
             input_data = {
-                "messages": [HumanMessage(content=json.dumps(user_filters))]
+                "messages": [HumanMessage(content=json.dumps(user_filters))],
+                "llm_model": user_filters.get("model", "gpt-4")
             }
 
             config = {

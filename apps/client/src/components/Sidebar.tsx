@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation, NavLink } from 'react-router-dom';
 import { FiLayers, FiChevronLeft, FiFileText, FiSearch, FiBook } from 'react-icons/fi';
 import logo from '../assets/FiduciaLogo.png';
@@ -6,6 +6,20 @@ import logo from '../assets/FiduciaLogo.png';
 const Sidebar: React.FC = () => {
   const location = useLocation();
   const [collapsed, setCollapsed] = useState(false);
+  const [selectedModel, setSelectedModel] = useState<'gpt-4' | 'gpt-5'>('gpt-4');
+
+  useEffect(() => {
+    const savedModel = localStorage.getItem('selectedLLMModel');
+    if (savedModel === 'gpt-5') {
+      setSelectedModel('gpt-5');
+    }
+  }, []);
+
+  const handleModelChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const model = event.target.value as 'gpt-4' | 'gpt-5';
+    setSelectedModel(model);
+    localStorage.setItem('selectedLLMModel', model);
+  };
 
   const navItems = [
     { label: 'Dashboard', path: '/', icon: FiLayers },
@@ -44,6 +58,8 @@ const Sidebar: React.FC = () => {
         )}
       </div>
 
+      
+
       {/* Navigation */}
       <nav className="flex-1 p-4 space-y-2">
         {navItems.map((item) => {
@@ -69,6 +85,23 @@ const Sidebar: React.FC = () => {
           );
         })}
       </nav>
+
+      {!collapsed && (
+        <div className="px-4 pb-4 border-b border-gray-200 border-t ">
+          <label htmlFor="model-select" className="block text-xs font-semibold uppercase text-gray-500 mb-2">
+            LLM Model
+          </label>
+          <select
+            id="model-select"
+            value={selectedModel}
+            onChange={handleModelChange}
+            className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-800 transition duration-150"
+          >
+            <option value="gpt-4">GPT-4</option>
+            <option value="gpt-5">GPT-5</option>
+          </select>
+        </div>
+      )}
     </aside>
   );
 };

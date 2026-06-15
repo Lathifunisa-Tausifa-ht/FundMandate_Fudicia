@@ -10,15 +10,34 @@ from langchain_classic.tools import tool
 from rapidfuzz import process
 
 import requests
-import yfinance as yf
+try:
+    import yfinance as yf
+except ImportError:
+    yf = None
+from typing import Any
 
-from utils.llm_testing import get_azure_chat_openai
+from utils.gpt_4_llm import get_azure_chat_openai
+from utils.gpt_4_llm import get_azure_chat_openai as get_azure_chat_openai_gpt4
+from utils.gpt_5_llm import get_azure_chat_openai as get_azure_chat_openai_gpt5
 import os
 import sys
 from dotenv import load_dotenv
 load_dotenv()
 
-LLM = get_azure_chat_openai()
+# Global context for dynamic LLM selection
+_active_llm = None
+
+def set_active_llm(llm):
+    """Set the active LLM for tools to use."""
+    global _active_llm
+    _active_llm = llm
+
+def get_active_llm():
+    """Get the active LLM, defaulting to GPT-4 if not set."""
+    global _active_llm
+    if _active_llm is None:
+        _active_llm = get_azure_chat_openai_gpt4()
+    return _active_llm
 
 # Removed static mappings - using LLM only for semantic normalization
 
@@ -63,7 +82,7 @@ Examples:
 - 'software & it' -> 'Software & IT Services'
 """
         try:
-            llm_response = LLM.invoke(prompt).content.strip()
+            llm_response = get_active_llm().invoke(prompt).content.strip()
             if llm_response and llm_response.lower() != 'none':
                 llm_response_lower = llm_response.strip().lower()
                 for db_value in db_values:
@@ -118,11 +137,134 @@ def scan_mandate_folder_and_parse() -> dict:
 
 
 @tool
-def extract_dynamic_criteria(raw_text: str, capability_params: str) -> str:
-    """Extract criteria using dynamic capability_params → subprocess_name as keys."""
+def extract_dynamic_criteria(input: Any = None, model: str | None = None) -> str:
+    """Flexible tool: accept many payload shapes and optional `model` parameter.
+
+    Supported `input` shapes:
+    - dict with keys: `raw_text` / `full_text` / `pdf_name` and `capability_params`
+    - JSON string containing the above
+    - plain raw_text string (with `capability_params` passed inside dict or omitted)
+    - dict/list used directly as `capability_params`
+
+    If `model` is provided (e.g. 'gpt-5' or 'gpt-4'), the tool will set the active LLM
+    for the duration of this call so the extraction uses the intended model.
+    """
     try:
-        # Parse capability_params JSON
-        params = json.loads(capability_params)
+        def load_pdf_text(pdf_name: str) -> str:
+            folder = Path(__file__).parent.parent / "input_fund_mandate"
+            path = folder / pdf_name
+            if not path.exists():
+                raise FileNotFoundError(f"PDF not found: {path}")
+            doc = fitz.open(path)
+            text = "".join(page.get_text() for page in doc)
+            doc.close()
+            return text
+
+        def load_latest_pdf_text() -> str:
+            folder = Path(__file__).parent.parent / "input_fund_mandate"
+            pdfs = list(folder.glob("*.pdf"))
+            if not pdfs:
+                raise FileNotFoundError(f"No PDF found in {folder}")
+            latest = max(pdfs, key=os.path.getmtime)
+            doc = fitz.open(latest)
+            text = "".join(page.get_text() for page in doc)
+            doc.close()
+            return text
+
+        # Model selection helper
+        def get_llm_for_name(name: str):
+            if not name:
+                return None
+            n = name.strip().lower()
+            if 'gpt-5' in n or n == 'gpt5':
+                return get_azure_chat_openai_gpt5()
+            return get_azure_chat_openai_gpt4()
+
+        # If caller passed a model override, set it as active
+        if isinstance(model, str) and model.strip():
+            llm_instance = get_llm_for_name(model)
+            if llm_instance:
+                set_active_llm(llm_instance)
+
+        raw_text = None
+        capability_params = None
+
+        # Normalize input
+        payload = input
+        if isinstance(payload, str):
+            # try parsing JSON, otherwise treat as raw text
+            try:
+                payload = json.loads(payload)
+            except Exception:
+                raw_text = payload
+
+        if isinstance(payload, dict):
+            # model override inside payload
+            if 'model' in payload and not model:
+                m = payload.get('model')
+                llm_instance = get_llm_for_name(m)
+                if llm_instance:
+                    set_active_llm(llm_instance)
+
+            # extract text and params
+            if 'raw_text' in payload:
+                raw_text = payload.get('raw_text')
+            if 'full_text' in payload:
+                raw_text = raw_text or payload.get('full_text')
+            if 'pdf_name' in payload and raw_text is None:
+                try:
+                    raw_text = load_pdf_text(payload.get('pdf_name'))
+                except Exception:
+                    raw_text = None
+
+            if 'capability_params' in payload:
+                capability_params = payload.get('capability_params')
+            else:
+                # if payload looks like capability_params (dict of subprocesses) use it
+                sample_vals = list(payload.values())
+                if sample_vals and isinstance(sample_vals[0], dict) and 'subprocess_name' in sample_vals[0]:
+                    capability_params = payload
+
+        # If no structured payload, allow input being capability_params directly
+        if capability_params is None and isinstance(input, (dict, list)) and raw_text is None:
+            capability_params = input
+
+        # If still no raw_text, try to use provided capability_params that contains pdf_name
+        if raw_text is None and isinstance(capability_params, dict) and 'pdf_name' in capability_params:
+            try:
+                raw_text = load_pdf_text(capability_params.get('pdf_name'))
+            except Exception:
+                raw_text = None
+
+        # Final fallbacks
+        if raw_text is None:
+            try:
+                raw_text = load_latest_pdf_text()
+            except Exception:
+                raw_text = ''
+
+        # Normalize capability_params into dict
+        params = {}
+        if capability_params is None:
+            params = {}
+        elif isinstance(capability_params, str):
+            try:
+                params = json.loads(capability_params)
+            except Exception:
+                params = {}
+        elif isinstance(capability_params, list):
+            # convert list to dict with numeric keys
+            params = {str(i): v for i, v in enumerate(capability_params)}
+        elif isinstance(capability_params, dict):
+            params = capability_params
+        else:
+            try:
+                params = dict(capability_params)
+            except Exception:
+                params = {}
+
+        print(f"🔍 Processing {len(params)} subprocesses")
+
         print(f"🔍 Processing {len(params)} subprocesses")
 
         # Build dynamic template
@@ -178,7 +320,7 @@ PDF TEXT (search carefully):
 EXACT JSON TEMPLATE:
 {template_json}"""
 
-        result = LLM.invoke(prompt).content.strip()
+        result = get_active_llm().invoke(prompt).content.strip()
         print(f"✅ Dynamic extraction: {len(result)} chars")
         return result
 

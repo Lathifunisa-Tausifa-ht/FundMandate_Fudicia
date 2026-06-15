@@ -8,17 +8,23 @@ from langgraph.graph import START, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 from typing_extensions import TypedDict
 
-from utils.llm_testing import get_azure_chat_openai
-from utils.tools import extract_dynamic_criteria, scan_mandate_folder_and_parse  # Fixed above
+from utils.gpt_4_llm import get_azure_chat_openai as get_azure_chat_openai_gpt4
+from utils.gpt_5_llm import get_azure_chat_openai as get_azure_chat_openai_gpt5
+from utils.tools import extract_dynamic_criteria, scan_mandate_folder_and_parse
+from utils.tools import set_active_llm
 
 load_dotenv()
 
-LLM = get_azure_chat_openai()
-if LLM is None:
-    raise RuntimeError("LLM initialization failed: LLM is None")
-
 tools = [scan_mandate_folder_and_parse, extract_dynamic_criteria]
-LLM_WITH_TOOLS = LLM.bind_tools(tools)
+
+def get_llm_for_model(model_name: str | None = None):
+    if not model_name:
+        model_name = 'gpt-4'
+
+    normalized = model_name.strip().lower()
+    if normalized in ('gpt-5', 'gpt5'):
+        return get_azure_chat_openai_gpt5()
+    return get_azure_chat_openai_gpt4()
 
 REACT_PROMPT = """You are the MANDATE PARSING AGENT.
 
@@ -64,11 +70,12 @@ agent_prompt = ChatPromptTemplate.from_messages([
 ])
 
 
-class AgentState(TypedDict):
+class AgentState(TypedDict, total=False):
     messages: Annotated[list[BaseMessage], operator.add]
     pdf_name: str
     query: str
     capability_params: dict
+    llm_model: str
 
 
 def agent_node(state: AgentState, config=None) -> dict:
@@ -87,7 +94,15 @@ def agent_node(state: AgentState, config=None) -> dict:
         capability_info = f"\n\nCapability Parameters: {state['capability_params']}"
 
     # STEP 1: Call LLM WITHOUT tools to get thinking text
-    llm_no_tools = LLM  # No bind_tools - allows plain text output
+    llm_model = state.get("llm_model") or "gpt-4"
+    llm = get_llm_for_model(llm_model)
+    if llm is None:
+        raise RuntimeError(f"Failed to initialize LLM for model: {llm_model}")
+
+    # Set active LLM so tools use the same model
+    set_active_llm(llm)
+
+    llm_no_tools = llm  # No bind_tools - allows plain text output
     result_no_tools = agent_prompt | llm_no_tools
 
     thinking_response = result_no_tools.invoke(
@@ -106,7 +121,7 @@ def agent_node(state: AgentState, config=None) -> dict:
 
     # STEP 2: Call LLM WITH tools to get tool calls
     # print("\n[AGENT1] STEP 2: Getting tool calls (with tools)...")
-    llm_with_tools = LLM.bind_tools(tools)
+    llm_with_tools = llm.bind_tools(tools)
     result_with_tools = agent_prompt | llm_with_tools
 
     tool_response = result_with_tools.invoke(
@@ -136,17 +151,3 @@ workflow.add_edge(START, "agent")
 workflow.add_conditional_edges("agent", tools_condition)
 workflow.add_edge("tools", "agent")
 graph = workflow.compile()  # NO checkpointer - fresh state on each invoke
-
-if __name__ == "__main__":
-    # Test with pdf_name, query, and capability_params
-    user_input = {
-        "messages": [HumanMessage(content="Scan input_fund_mandate and extract criteria")],
-        "pdf_name": "fund_mandate.pdf",
-        "query": "Scan input_fund_mandate and extract criteria",
-        "capability_params": {}
-    }
-    result = graph.invoke(user_input)
-
-    # Final JSON in last message
-    final_msg = result["messages"][-1]
-    print("MANDATE JSON:", final_msg.content)

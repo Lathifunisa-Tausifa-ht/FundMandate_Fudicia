@@ -7,21 +7,29 @@ from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, START, StateGraph
 from langgraph.prebuilt import ToolNode
 # YOUR EXACT TOOL ✅ (No modification needed)
-from utils.llm_testing import get_azure_chat_openai  # Your LLM
+from utils.gpt_4_llm import get_azure_chat_openai as get_azure_chat_openai_gpt4  # Your LLM
+from utils.gpt_5_llm import get_azure_chat_openai as get_azure_chat_openai_gpt5
+from utils.tools import set_active_llm
 from utils.tools import load_and_filter_companies
 
 load_dotenv()
 
-LLM = get_azure_chat_openai()
+def get_llm_for_model(model_name: str | None = None):
+    if not model_name:
+        model_name = 'gpt-4'
+
+    normalized = model_name.strip().lower()
+    if normalized in ('gpt-5', 'gpt5'):
+        return get_azure_chat_openai_gpt5()
+    return get_azure_chat_openai_gpt4()
 
 
-class AgentState(TypedDict):
+class AgentState(TypedDict, total=False):
     messages: Annotated[list, operator.add]
-
+    llm_model: str
 
 # ================== PROPER TOOL BINDING (Your tool) ==================
 tools = [load_and_filter_companies]  # YOUR TOOL HERE ✅
-llm_with_tools = LLM.bind_tools(tools, strict=True)
 
 
 def call_model(state, config=None):
@@ -31,8 +39,14 @@ def call_model(state, config=None):
 
     has_tool_results = any(isinstance(m, ToolMessage) for m in messages)
 
-    # SYSTEM PROMPT MODIFICATION:
+    # Get LLM based on model selection
+    llm_model = state.get("llm_model") or "gpt-4"
+    llm = get_llm_for_model(llm_model)
 
+    # Set active LLM so tools use the same model
+    set_active_llm(llm)
+
+    # SYSTEM PROMPT MODIFICATION:
     # We add a rule that if results exist, the agent should summarize.
 
     system_prompt = """You are the SECTOR AND INDUSTRY RESEARCH AGENT.This agent is responsible for the Sector & Industry Research sub-process within the Research and Idea Generation process of the Fund Mandate capability. It specializes in top-down analysis, identifying broader market trends, competitive landscapes, and macroeconomic tailwinds or headwinds affecting specific industries. Trigger this agent when the user needs high-level thematic insights or comparative sector data to inform investment mandates.
@@ -79,7 +93,7 @@ The user provides JSON with mandate_id and filters. You MUST pass them EXACTLY a
 
     # STEP 1: Always get the Thinking text
 
-    llm_no_tools = LLM
+    llm_no_tools = llm
 
     thinking_response = llm_no_tools.invoke(messages_with_system, config=config)
 
@@ -89,7 +103,7 @@ The user provides JSON with mandate_id and filters. You MUST pass them EXACTLY a
 
         # First pass: Get tool calls
 
-        llm_with_tools = LLM.bind_tools(tools, strict=True)
+        llm_with_tools = llm.bind_tools(tools, strict=True)
 
         tool_call_response = llm_with_tools.invoke(messages_with_system, config=config)
 
