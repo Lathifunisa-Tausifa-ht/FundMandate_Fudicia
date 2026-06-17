@@ -375,6 +375,7 @@ class ScreeningRequest(BaseModel):
     mandate_id: int
     mandate_parameters: dict
     company_id: list[int] = None  # Optional: specific companies to screen
+    model: str | None = None  # Optional model override: 'gpt-4' or 'gpt-5'
  
     class Config:
         json_schema_extra = {
@@ -385,7 +386,8 @@ class ScreeningRequest(BaseModel):
                     "debt_to_equity": "< 0.5",
                     "pe_ratio": "< 40"
                 },
-                "company_id": [1, 2, 3, 5]
+                "company_id": [1, 2, 3, 5],
+                "model": "gpt-5"
             }
         }
  
@@ -451,11 +453,15 @@ async def websocket_screen_companies(websocket: WebSocket):
             "company_id_list": company_id_list
         }))
  
+        model_selected = data.get("model") or "gpt-4"
+        print(f"[WS] 🔧 Model selected: {model_selected.upper()}")
+        
         initial_state = {
             "messages": [user_message],
             "mandate_id": mandate_id_int,
             "mandate_parameters": mandate_parameters,
             "company_id_list": company_id_list,
+            "llm_model": data.get("model"),
             "tools_executed": 0,
             "all_tool_results": {}
         }
@@ -795,6 +801,9 @@ async def screen_companies_endpoint(request: ScreeningRequest):
         agent = create_bottom_up_fundamental_analysis_agent()
  
         # Prepare initial state for LangGraph
+        model_selected = request.model or "gpt-4"
+        print(f"[HTTP] 🔧 Model selected: {model_selected.upper()}")
+        
         user_message = HumanMessage(content=json.dumps({
             "mandate_id": mandate_id_int,
             "mandate_parameters": request.mandate_parameters,
@@ -806,6 +815,7 @@ async def screen_companies_endpoint(request: ScreeningRequest):
             "mandate_id": mandate_id_int,
             "mandate_parameters": request.mandate_parameters,
             "company_id_list": company_id_list,
+            "llm_model": request.model,
             "tools_executed": 0,
             "all_tool_results": {}
         }
@@ -828,6 +838,7 @@ async def screen_companies_endpoint(request: ScreeningRequest):
         # Build response
         response = {
             "mandate_id": mandate_id_int,
+            "model_used": request.model or "gpt-4",
             "company_details": company_details,
             "total_passed": total_passed,
             "total_conditional": total_conditional,

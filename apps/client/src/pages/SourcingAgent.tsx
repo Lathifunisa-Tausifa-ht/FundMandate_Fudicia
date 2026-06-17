@@ -597,10 +597,16 @@ const SourcingAgent: React.FC = () => {
       // Extract only company_id from selected companies
       const companyIds = selectedCompanyList.map((company: any) => company.id || company.Company_id);
 
+      const getSelectedLLMModel = () => {
+        const savedModel = localStorage.getItem('selectedLLMModel');
+        return savedModel === 'gpt-5' ? 'gpt-5' : 'gpt-4';
+      };
+
       const payload = {
         mandate_id: mandateId,
         mandate_parameters: mandateParameters,
-        company_id: companyIds
+        company_id: companyIds,
+        model: getSelectedLLMModel()
       };
 
       console.log('Screening payload:', payload);
