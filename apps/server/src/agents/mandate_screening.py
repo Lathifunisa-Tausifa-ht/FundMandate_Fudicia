@@ -6,7 +6,9 @@ import sys
 import traceback
 from typing import Annotated, Any, TypedDict
 # Import Azure LLM
-from utils.gpt_4_llm import get_azure_chat_openai
+from utils.gpt_4_llm import get_azure_chat_openai as get_azure_chat_openai_gpt4
+from utils.gpt_5_llm import get_azure_chat_openai as get_azure_chat_openai_gpt5
+from utils.tools import set_active_llm
  
 # Import StructuredTools from screening_tools
 from utils.screening_tools import (
@@ -34,6 +36,7 @@ class AgentState(TypedDict):
     mandate_id: int | None
     mandate_parameters: dict[str, Any] | None
     company_id_list: list[int] | None
+    llm_model: str | None
     tools_executed: int  # Counter for tools that have been executed
     all_tool_results: dict[str, Any]  # Accumulated results from all tools
  
@@ -44,13 +47,15 @@ tools = [
     profitability_valuation_screening_tool
 ]
  
-# ================== Get LLM ==================
-try:
-    llm = get_azure_chat_openai()
-    print("[AGENT] ✅ LLM loaded successfully")
-except Exception as e:
-    print(f"[AGENT] ❌ Error loading LLM: {e}")
-    raise
+# ================== MODEL SELECTION ==================
+def get_llm_for_model(model_name: str | None = None):
+    if not model_name:
+        model_name = 'gpt-4'
+
+    normalized = model_name.strip().lower()
+    if normalized in ('gpt-5', 'gpt5'):
+        return get_azure_chat_openai_gpt5()
+    return get_azure_chat_openai_gpt4()
  
  
 # ================== AGENT NODE ==================
@@ -132,6 +137,14 @@ RULES:
     has_tool_results = any(isinstance(m, ToolMessage) for m in messages)
  
     print(f"[AGENT] Has tool results: {has_tool_results}")
+ 
+    # Select per-request model and activate it for tools
+    llm_model = state.get("llm_model") or "gpt-4"
+    print(f"[AGENT] 🔧 Using model: {llm_model.upper()}")
+    llm = get_llm_for_model(llm_model)
+    if llm is None:
+        raise RuntimeError(f"Failed to initialize LLM for model: {llm_model}")
+    set_active_llm(llm)
  
     try:
         responses_to_return = []
